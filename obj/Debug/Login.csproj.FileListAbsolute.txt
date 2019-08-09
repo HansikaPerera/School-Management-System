@@ -1,0 +1,9 @@
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\bin\Debug\Login.exe
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\bin\Debug\Login.pdb
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.Dashboard.resources
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.Form1.resources
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.Properties.Resources.resources
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.csproj.GenerateResource.Cache
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.exe
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.pdb
