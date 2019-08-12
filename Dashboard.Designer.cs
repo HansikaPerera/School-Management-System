@@ -38,13 +38,13 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.subjectBtn = new System.Windows.Forms.Button();
+            this.staffBtn = new System.Windows.Forms.Button();
+            this.oldBoysBtn = new System.Windows.Forms.Button();
+            this.libraryBtn = new System.Windows.Forms.Button();
+            this.eventBtn = new System.Windows.Forms.Button();
+            this.resultBtn = new System.Windows.Forms.Button();
+            this.studentBtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -146,96 +146,95 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(722, 57);
             this.flowLayoutPanel1.TabIndex = 32;
             // 
-            // button4
+            // subjectBtn
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button4.BackgroundImage = global::Login.Properties.Resources.subject;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Location = new System.Drawing.Point(157, 134);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(145, 111);
-            this.button4.TabIndex = 36;
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.subjectBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.subjectBtn.BackgroundImage = global::Login.Properties.Resources.subject;
+            this.subjectBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.subjectBtn.Location = new System.Drawing.Point(157, 134);
+            this.subjectBtn.Name = "subjectBtn";
+            this.subjectBtn.Size = new System.Drawing.Size(145, 111);
+            this.subjectBtn.TabIndex = 36;
+            this.subjectBtn.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // staffBtn
             // 
-            this.button10.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button10.BackgroundImage = global::Login.Properties.Resources.staff;
-            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button10.Location = new System.Drawing.Point(397, 388);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(145, 111);
-            this.button10.TabIndex = 42;
-            this.button10.UseVisualStyleBackColor = false;
+            this.staffBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.staffBtn.BackgroundImage = global::Login.Properties.Resources.staff;
+            this.staffBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.staffBtn.Location = new System.Drawing.Point(397, 388);
+            this.staffBtn.Name = "staffBtn";
+            this.staffBtn.Size = new System.Drawing.Size(145, 111);
+            this.staffBtn.TabIndex = 42;
+            this.staffBtn.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // oldBoysBtn
             // 
-            this.button9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button9.BackgroundImage = global::Login.Properties.Resources.old_bys;
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.Maroon;
-            this.button9.Location = new System.Drawing.Point(631, 297);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(145, 111);
-            this.button9.TabIndex = 41;
-            this.button9.Text = "                                  ";
-            this.button9.UseVisualStyleBackColor = false;
+            this.oldBoysBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.oldBoysBtn.BackgroundImage = global::Login.Properties.Resources.old_bys;
+            this.oldBoysBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.oldBoysBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.oldBoysBtn.ForeColor = System.Drawing.Color.Maroon;
+            this.oldBoysBtn.Location = new System.Drawing.Point(631, 297);
+            this.oldBoysBtn.Name = "oldBoysBtn";
+            this.oldBoysBtn.Size = new System.Drawing.Size(145, 111);
+            this.oldBoysBtn.TabIndex = 41;
+            this.oldBoysBtn.Text = "                                  ";
+            this.oldBoysBtn.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // libraryBtn
             // 
-            this.button8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button8.BackgroundImage = global::Login.Properties.Resources.library;
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.Maroon;
-            this.button8.Location = new System.Drawing.Point(396, 224);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(145, 111);
-            this.button8.TabIndex = 40;
-            this.button8.Text = "                                           ";
-            this.button8.UseVisualStyleBackColor = false;
+            this.libraryBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.libraryBtn.BackgroundImage = global::Login.Properties.Resources.library;
+            this.libraryBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.libraryBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.libraryBtn.ForeColor = System.Drawing.Color.Maroon;
+            this.libraryBtn.Location = new System.Drawing.Point(396, 224);
+            this.libraryBtn.Name = "libraryBtn";
+            this.libraryBtn.Size = new System.Drawing.Size(145, 111);
+            this.libraryBtn.TabIndex = 40;
+            this.libraryBtn.Text = "                                           ";
+            this.libraryBtn.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // eventBtn
             // 
-            this.button7.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.Maroon;
-            this.button7.Location = new System.Drawing.Point(159, 297);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(145, 111);
-            this.button7.TabIndex = 39;
-            this.button7.Text = "          ";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.eventBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.eventBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("eventBtn.BackgroundImage")));
+            this.eventBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.eventBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eventBtn.ForeColor = System.Drawing.Color.Maroon;
+            this.eventBtn.Location = new System.Drawing.Point(159, 297);
+            this.eventBtn.Name = "eventBtn";
+            this.eventBtn.Size = new System.Drawing.Size(145, 111);
+            this.eventBtn.TabIndex = 39;
+            this.eventBtn.Text = "          ";
+            this.eventBtn.UseVisualStyleBackColor = false;
+            this.eventBtn.Click += new System.EventHandler(this.eventBtn_Click);
             // 
-            // button6
+            // resultBtn
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button6.BackgroundImage = global::Login.Properties.Resources.result;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.Location = new System.Drawing.Point(631, 137);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(145, 111);
-            this.button6.TabIndex = 38;
-            this.button6.UseVisualStyleBackColor = false;
+            this.resultBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.resultBtn.BackgroundImage = global::Login.Properties.Resources.result;
+            this.resultBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.resultBtn.Location = new System.Drawing.Point(631, 137);
+            this.resultBtn.Name = "resultBtn";
+            this.resultBtn.Size = new System.Drawing.Size(145, 111);
+            this.resultBtn.TabIndex = 38;
+            this.resultBtn.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // studentBtn
             // 
-            this.button5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button5.BackgroundImage = global::Login.Properties.Resources.student;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button5.Location = new System.Drawing.Point(396, 60);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(145, 111);
-            this.button5.TabIndex = 37;
-            this.button5.Text = "      ";
-            this.button5.UseVisualStyleBackColor = false;
+            this.studentBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.studentBtn.BackgroundImage = global::Login.Properties.Resources.student;
+            this.studentBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.studentBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.studentBtn.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.studentBtn.Location = new System.Drawing.Point(396, 60);
+            this.studentBtn.Name = "studentBtn";
+            this.studentBtn.Size = new System.Drawing.Size(145, 111);
+            this.studentBtn.TabIndex = 37;
+            this.studentBtn.Text = "      ";
+            this.studentBtn.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -256,13 +255,13 @@
             this.ClientSize = new System.Drawing.Size(835, 522);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.subjectBtn);
+            this.Controls.Add(this.staffBtn);
+            this.Controls.Add(this.oldBoysBtn);
+            this.Controls.Add(this.libraryBtn);
+            this.Controls.Add(this.eventBtn);
+            this.Controls.Add(this.resultBtn);
+            this.Controls.Add(this.studentBtn);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Dashboard";
@@ -287,13 +286,13 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button subjectBtn;
+        private System.Windows.Forms.Button staffBtn;
+        private System.Windows.Forms.Button oldBoysBtn;
+        private System.Windows.Forms.Button libraryBtn;
+        private System.Windows.Forms.Button eventBtn;
+        private System.Windows.Forms.Button resultBtn;
+        private System.Windows.Forms.Button studentBtn;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -73,6 +73,26 @@ namespace Login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap event_accepted {
+            get {
+                object obj = ResourceManager.GetObject("event accepted", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap event_icn {
+            get {
+                object obj = ResourceManager.GetObject("event icn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap HG_Work_Portfolio_2017_MNPS_Background {
             get {
                 object obj = ResourceManager.GetObject("HG-Work-Portfolio-2017-MNPS-Background", resourceCulture);
@@ -93,6 +113,16 @@ namespace Login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap noti {
+            get {
+                object obj = ResourceManager.GetObject("noti", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap old_bys {
             get {
                 object obj = ResourceManager.GetObject("old bys", resourceCulture);
@@ -106,6 +136,16 @@ namespace Login.Properties {
         internal static System.Drawing.Bitmap result {
             get {
                 object obj = ResourceManager.GetObject("result", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap society {
+            get {
+                object obj = ResourceManager.GetObject("society", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +176,16 @@ namespace Login.Properties {
         internal static System.Drawing.Bitmap subject {
             get {
                 object obj = ResourceManager.GetObject("subject", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wcpsZm {
+            get {
+                object obj = ResourceManager.GetObject("wcpsZm", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

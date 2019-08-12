@@ -7,3 +7,4 @@ C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\
 C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.csproj.GenerateResource.Cache
 C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.exe
 C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.pdb
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.EventDashboard.resources

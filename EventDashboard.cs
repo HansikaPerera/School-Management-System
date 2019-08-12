@@ -9,17 +9,11 @@ using System.Windows.Forms;
 
 namespace Login
 {
-    public partial class Dashboard : Form
+    public partial class EventDashboard : Form
     {
-        public Dashboard()
+        public EventDashboard()
         {
             InitializeComponent();
-        }
-
-        private void eventBtn_Click(object sender, EventArgs e)
-        {
-            var newForm = new EventDashboard();
-            newForm.Show();
         }
     }
 }

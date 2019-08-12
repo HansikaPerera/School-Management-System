@@ -50,6 +50,12 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="EventDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventDashboard.Designer.cs">
+      <DependentUpon>EventDashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventDashboard.resx">
+      <DependentUpon>EventDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -107,6 +116,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\HG-Work-Portfolio-2017-MNPS-Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event accepted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event icn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\society.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wcpsZm.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
