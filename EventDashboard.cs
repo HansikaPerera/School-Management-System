@@ -15,5 +15,11 @@ namespace Login
         {
             InitializeComponent();
         }
+
+        private void dashboardBtn_Click(object sender, EventArgs e)
+        {
+            var newForm = new Dashboard();
+            newForm.Show();
+        }
     }
 }

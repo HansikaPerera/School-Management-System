@@ -31,14 +31,14 @@
             this.button8 = new System.Windows.Forms.Button();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button7 = new System.Windows.Forms.Button();
+            this.dashboardBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.SMbtn = new System.Windows.Forms.Button();
+            this.NMbtn = new System.Windows.Forms.Button();
+            this.EMbtn = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -76,7 +76,7 @@
             // 
             this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(12)))), ((int)(((byte)(2)))));
             this.flowLayoutPanel2.Controls.Add(this.flowLayoutPanel3);
-            this.flowLayoutPanel2.Controls.Add(this.button7);
+            this.flowLayoutPanel2.Controls.Add(this.dashboardBtn);
             this.flowLayoutPanel2.Controls.Add(this.button8);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 119);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
@@ -91,17 +91,18 @@
             this.flowLayoutPanel3.Size = new System.Drawing.Size(110, 104);
             this.flowLayoutPanel3.TabIndex = 3;
             // 
-            // button7
+            // dashboardBtn
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
-            this.button7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.Orange;
-            this.button7.Location = new System.Drawing.Point(3, 113);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(110, 41);
-            this.button7.TabIndex = 5;
-            this.button7.Text = "Dashboard";
-            this.button7.UseVisualStyleBackColor = false;
+            this.dashboardBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
+            this.dashboardBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashboardBtn.ForeColor = System.Drawing.Color.Orange;
+            this.dashboardBtn.Location = new System.Drawing.Point(3, 113);
+            this.dashboardBtn.Name = "dashboardBtn";
+            this.dashboardBtn.Size = new System.Drawing.Size(110, 41);
+            this.dashboardBtn.TabIndex = 5;
+            this.dashboardBtn.Text = "Dashboard";
+            this.dashboardBtn.UseVisualStyleBackColor = false;
+            this.dashboardBtn.Click += new System.EventHandler(this.dashboardBtn_Click);
             // 
             // label1
             // 
@@ -143,48 +144,61 @@
             this.panel2.Size = new System.Drawing.Size(605, 51);
             this.panel2.TabIndex = 36;
             // 
-            // button5
+            // SMbtn
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.SeaShell;
-            this.button5.Location = new System.Drawing.Point(612, 359);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(170, 45);
-            this.button5.TabIndex = 106;
-            this.button5.Text = "Society Management";
-            this.button5.UseVisualStyleBackColor = false;
+            this.SMbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
+            this.SMbtn.FlatAppearance.BorderColor = System.Drawing.Color.Bisque;
+            this.SMbtn.FlatAppearance.BorderSize = 2;
+            this.SMbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.SMbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SMbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SMbtn.ForeColor = System.Drawing.Color.SeaShell;
+            this.SMbtn.Location = new System.Drawing.Point(612, 359);
+            this.SMbtn.Name = "SMbtn";
+            this.SMbtn.Size = new System.Drawing.Size(170, 45);
+            this.SMbtn.TabIndex = 106;
+            this.SMbtn.Text = "Society Management";
+            this.SMbtn.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // NMbtn
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.SeaShell;
-            this.button4.Location = new System.Drawing.Point(398, 359);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(170, 45);
-            this.button4.TabIndex = 105;
-            this.button4.Text = "Notification Management";
-            this.button4.UseVisualStyleBackColor = false;
+            this.NMbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
+            this.NMbtn.FlatAppearance.BorderColor = System.Drawing.Color.Bisque;
+            this.NMbtn.FlatAppearance.BorderSize = 2;
+            this.NMbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.NMbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.NMbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NMbtn.ForeColor = System.Drawing.Color.SeaShell;
+            this.NMbtn.Location = new System.Drawing.Point(398, 359);
+            this.NMbtn.Name = "NMbtn";
+            this.NMbtn.Size = new System.Drawing.Size(170, 45);
+            this.NMbtn.TabIndex = 105;
+            this.NMbtn.Text = "Notification Management";
+            this.NMbtn.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.NMbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.NMbtn.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // EMbtn
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.SeaShell;
-            this.button6.Location = new System.Drawing.Point(180, 359);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(170, 45);
-            this.button6.TabIndex = 104;
-            this.button6.Text = "Event Management";
-            this.button6.UseVisualStyleBackColor = false;
+            this.EMbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
+            this.EMbtn.FlatAppearance.BorderColor = System.Drawing.Color.Bisque;
+            this.EMbtn.FlatAppearance.BorderSize = 2;
+            this.EMbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.EMbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EMbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EMbtn.ForeColor = System.Drawing.Color.SeaShell;
+            this.EMbtn.Location = new System.Drawing.Point(180, 359);
+            this.EMbtn.Name = "EMbtn";
+            this.EMbtn.Size = new System.Drawing.Size(170, 45);
+            this.EMbtn.TabIndex = 104;
+            this.EMbtn.Text = "Event Management";
+            this.EMbtn.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.SaddleBrown;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.button3.Location = new System.Drawing.Point(612, 183);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(170, 170);
@@ -211,6 +225,7 @@
             // 
             // label9
             // 
+            this.label9.AutoEllipsis = true;
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.label9.Font = new System.Drawing.Font("Adobe Heiti Std R", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
@@ -290,9 +305,9 @@
             this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.SMbtn);
+            this.Controls.Add(this.NMbtn);
+            this.Controls.Add(this.EMbtn);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -326,15 +341,15 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button dashboardBtn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button SMbtn;
+        private System.Windows.Forms.Button NMbtn;
+        private System.Windows.Forms.Button EMbtn;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
