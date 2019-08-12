@@ -44,14 +44,18 @@
             this.resultBtn = new System.Windows.Forms.Button();
             this.studentBtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel2
             // 
+            this.flowLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(12)))), ((int)(((byte)(2)))));
             this.flowLayoutPanel2.Controls.Add(this.flowLayoutPanel3);
             this.flowLayoutPanel2.Controls.Add(this.button3);
@@ -62,10 +66,11 @@
             // 
             // flowLayoutPanel3
             // 
+            this.flowLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.flowLayoutPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(12)))), ((int)(((byte)(2)))));
             this.flowLayoutPanel3.Location = new System.Drawing.Point(3, 3);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(110, 104);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(110, 123);
             this.flowLayoutPanel3.TabIndex = 3;
             // 
             // button3
@@ -73,7 +78,7 @@
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
             this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Orange;
-            this.button3.Location = new System.Drawing.Point(3, 113);
+            this.button3.Location = new System.Drawing.Point(3, 132);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(110, 41);
             this.button3.TabIndex = 5;
@@ -82,6 +87,7 @@
             // 
             // panel3
             // 
+            this.panel3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(121, 51);
@@ -89,6 +95,7 @@
             // 
             // panel2
             // 
+            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(12)))), ((int)(((byte)(2)))));
             this.panel2.Controls.Add(this.label2);
             this.panel2.Location = new System.Drawing.Point(130, 3);
@@ -98,6 +105,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Bookman Old Style", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(191)))), ((int)(((byte)(48)))));
@@ -109,21 +117,22 @@
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(12)))), ((int)(((byte)(2)))));
             this.flowLayoutPanel1.Controls.Add(this.panel3);
             this.flowLayoutPanel1.Controls.Add(this.panel2);
             this.flowLayoutPanel1.ForeColor = System.Drawing.Color.White;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(113, 0);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(722, 57);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(710, 57);
             this.flowLayoutPanel1.TabIndex = 32;
             // 
             // subjectBtn
             // 
+            this.subjectBtn.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.subjectBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.subjectBtn.BackgroundImage = global::Login.Properties.Resources.subject;
-            this.subjectBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.subjectBtn.Location = new System.Drawing.Point(157, 134);
+            this.subjectBtn.Location = new System.Drawing.Point(159, 119);
             this.subjectBtn.Name = "subjectBtn";
             this.subjectBtn.Size = new System.Drawing.Size(145, 111);
             this.subjectBtn.TabIndex = 36;
@@ -131,9 +140,9 @@
             // 
             // staffBtn
             // 
-            this.staffBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.staffBtn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.staffBtn.BackColor = System.Drawing.Color.DarkRed;
             this.staffBtn.BackgroundImage = global::Login.Properties.Resources.staff;
-            this.staffBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.staffBtn.Location = new System.Drawing.Point(397, 388);
             this.staffBtn.Name = "staffBtn";
             this.staffBtn.Size = new System.Drawing.Size(145, 111);
@@ -142,12 +151,12 @@
             // 
             // oldBoysBtn
             // 
+            this.oldBoysBtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.oldBoysBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.oldBoysBtn.BackgroundImage = global::Login.Properties.Resources.old_bys;
-            this.oldBoysBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.oldBoysBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.oldBoysBtn.ForeColor = System.Drawing.Color.Maroon;
-            this.oldBoysBtn.Location = new System.Drawing.Point(631, 297);
+            this.oldBoysBtn.Location = new System.Drawing.Point(631, 317);
             this.oldBoysBtn.Name = "oldBoysBtn";
             this.oldBoysBtn.Size = new System.Drawing.Size(145, 111);
             this.oldBoysBtn.TabIndex = 41;
@@ -156,9 +165,9 @@
             // 
             // libraryBtn
             // 
+            this.libraryBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.libraryBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.libraryBtn.BackgroundImage = global::Login.Properties.Resources.library;
-            this.libraryBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.libraryBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.libraryBtn.ForeColor = System.Drawing.Color.Maroon;
             this.libraryBtn.Location = new System.Drawing.Point(396, 224);
@@ -170,12 +179,12 @@
             // 
             // eventBtn
             // 
+            this.eventBtn.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.eventBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.eventBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("eventBtn.BackgroundImage")));
-            this.eventBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.eventBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eventBtn.ForeColor = System.Drawing.Color.Maroon;
-            this.eventBtn.Location = new System.Drawing.Point(159, 297);
+            this.eventBtn.Location = new System.Drawing.Point(159, 317);
             this.eventBtn.Name = "eventBtn";
             this.eventBtn.Size = new System.Drawing.Size(145, 111);
             this.eventBtn.TabIndex = 39;
@@ -185,10 +194,10 @@
             // 
             // resultBtn
             // 
+            this.resultBtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.resultBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.resultBtn.BackgroundImage = global::Login.Properties.Resources.result;
-            this.resultBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.resultBtn.Location = new System.Drawing.Point(631, 137);
+            this.resultBtn.Location = new System.Drawing.Point(631, 119);
             this.resultBtn.Name = "resultBtn";
             this.resultBtn.Size = new System.Drawing.Size(145, 111);
             this.resultBtn.TabIndex = 38;
@@ -196,9 +205,9 @@
             // 
             // studentBtn
             // 
+            this.studentBtn.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.studentBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.studentBtn.BackgroundImage = global::Login.Properties.Resources.student;
-            this.studentBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.studentBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.studentBtn.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.studentBtn.Location = new System.Drawing.Point(396, 60);
@@ -218,6 +227,17 @@
             this.pictureBox1.TabIndex = 35;
             this.pictureBox1.TabStop = false;
             // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(12)))), ((int)(((byte)(2)))));
+            this.panel1.Controls.Add(this.flowLayoutPanel1);
+            this.panel1.Location = new System.Drawing.Point(113, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(722, 57);
+            this.panel1.TabIndex = 43;
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -225,24 +245,28 @@
             this.BackgroundImage = global::Login.Properties.Resources.HG_Work_Portfolio_2017_MNPS_Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(835, 522);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.flowLayoutPanel2);
-            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.subjectBtn);
             this.Controls.Add(this.staffBtn);
             this.Controls.Add(this.oldBoysBtn);
-            this.Controls.Add(this.libraryBtn);
             this.Controls.Add(this.eventBtn);
             this.Controls.Add(this.resultBtn);
             this.Controls.Add(this.studentBtn);
             this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Controls.Add(this.libraryBtn);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Name = "Dashboard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
             this.flowLayoutPanel2.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -264,5 +288,6 @@
         private System.Windows.Forms.Button resultBtn;
         private System.Windows.Forms.Button studentBtn;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
