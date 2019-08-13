@@ -132,6 +132,7 @@
             this.subjectBtn.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.subjectBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.subjectBtn.BackgroundImage = global::Login.Properties.Resources.subject;
+            this.subjectBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.subjectBtn.Location = new System.Drawing.Point(159, 119);
             this.subjectBtn.Name = "subjectBtn";
             this.subjectBtn.Size = new System.Drawing.Size(145, 111);
@@ -143,6 +144,7 @@
             this.staffBtn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.staffBtn.BackColor = System.Drawing.Color.DarkRed;
             this.staffBtn.BackgroundImage = global::Login.Properties.Resources.staff;
+            this.staffBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.staffBtn.Location = new System.Drawing.Point(397, 388);
             this.staffBtn.Name = "staffBtn";
             this.staffBtn.Size = new System.Drawing.Size(145, 111);
@@ -154,6 +156,7 @@
             this.oldBoysBtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.oldBoysBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.oldBoysBtn.BackgroundImage = global::Login.Properties.Resources.old_bys;
+            this.oldBoysBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.oldBoysBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.oldBoysBtn.ForeColor = System.Drawing.Color.Maroon;
             this.oldBoysBtn.Location = new System.Drawing.Point(631, 317);
@@ -168,6 +171,7 @@
             this.libraryBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.libraryBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.libraryBtn.BackgroundImage = global::Login.Properties.Resources.library;
+            this.libraryBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.libraryBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.libraryBtn.ForeColor = System.Drawing.Color.Maroon;
             this.libraryBtn.Location = new System.Drawing.Point(396, 224);
@@ -182,6 +186,7 @@
             this.eventBtn.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.eventBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.eventBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("eventBtn.BackgroundImage")));
+            this.eventBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.eventBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eventBtn.ForeColor = System.Drawing.Color.Maroon;
             this.eventBtn.Location = new System.Drawing.Point(159, 317);
@@ -197,6 +202,7 @@
             this.resultBtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.resultBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.resultBtn.BackgroundImage = global::Login.Properties.Resources.result;
+            this.resultBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.resultBtn.Location = new System.Drawing.Point(631, 119);
             this.resultBtn.Name = "resultBtn";
             this.resultBtn.Size = new System.Drawing.Size(145, 111);
@@ -208,6 +214,7 @@
             this.studentBtn.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.studentBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.studentBtn.BackgroundImage = global::Login.Properties.Resources.student;
+            this.studentBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.studentBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.studentBtn.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.studentBtn.Location = new System.Drawing.Point(396, 60);
@@ -257,7 +264,6 @@
             this.Controls.Add(this.libraryBtn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
