@@ -145,7 +145,7 @@
             this.subjectBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.subjectBtn.Location = new System.Drawing.Point(159, 119);
             this.subjectBtn.Name = "subjectBtn";
-            this.subjectBtn.Size = new System.Drawing.Size(145, 111);
+            this.subjectBtn.Size = new System.Drawing.Size(170, 130);
             this.subjectBtn.TabIndex = 46;
             this.subjectBtn.UseVisualStyleBackColor = true;
             // 
@@ -155,9 +155,9 @@
             this.staffBtn.BackColor = System.Drawing.Color.DarkRed;
             this.staffBtn.BackgroundImage = global::Login.Properties.Resources.staff;
             this.staffBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.staffBtn.Location = new System.Drawing.Point(397, 388);
+            this.staffBtn.Location = new System.Drawing.Point(396, 367);
             this.staffBtn.Name = "staffBtn";
-            this.staffBtn.Size = new System.Drawing.Size(145, 111);
+            this.staffBtn.Size = new System.Drawing.Size(170, 130);
             this.staffBtn.TabIndex = 52;
             this.staffBtn.UseVisualStyleBackColor = false;
             // 
@@ -171,7 +171,7 @@
             this.oldBoysBtn.ForeColor = System.Drawing.Color.Maroon;
             this.oldBoysBtn.Location = new System.Drawing.Point(631, 317);
             this.oldBoysBtn.Name = "oldBoysBtn";
-            this.oldBoysBtn.Size = new System.Drawing.Size(145, 111);
+            this.oldBoysBtn.Size = new System.Drawing.Size(170, 130);
             this.oldBoysBtn.TabIndex = 51;
             this.oldBoysBtn.Text = "                                  ";
             this.oldBoysBtn.UseVisualStyleBackColor = false;
@@ -186,7 +186,7 @@
             this.eventBtn.ForeColor = System.Drawing.Color.Maroon;
             this.eventBtn.Location = new System.Drawing.Point(159, 317);
             this.eventBtn.Name = "eventBtn";
-            this.eventBtn.Size = new System.Drawing.Size(145, 111);
+            this.eventBtn.Size = new System.Drawing.Size(170, 130);
             this.eventBtn.TabIndex = 49;
             this.eventBtn.Text = "          ";
             this.eventBtn.UseVisualStyleBackColor = false;
@@ -199,7 +199,7 @@
             this.resultBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.resultBtn.Location = new System.Drawing.Point(631, 119);
             this.resultBtn.Name = "resultBtn";
-            this.resultBtn.Size = new System.Drawing.Size(145, 111);
+            this.resultBtn.Size = new System.Drawing.Size(170, 130);
             this.resultBtn.TabIndex = 48;
             this.resultBtn.UseVisualStyleBackColor = false;
             // 
@@ -213,7 +213,7 @@
             this.studentBtn.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.studentBtn.Location = new System.Drawing.Point(396, 60);
             this.studentBtn.Name = "studentBtn";
-            this.studentBtn.Size = new System.Drawing.Size(145, 111);
+            this.studentBtn.Size = new System.Drawing.Size(170, 130);
             this.studentBtn.TabIndex = 47;
             this.studentBtn.Text = "      ";
             this.studentBtn.UseVisualStyleBackColor = false;
