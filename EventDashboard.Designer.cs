@@ -96,6 +96,7 @@
             this.NMbtn.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.NMbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.NMbtn.UseVisualStyleBackColor = false;
+            this.NMbtn.Click += new System.EventHandler(this.NMbtn_Click);
             // 
             // EMbtn
             // 
@@ -137,6 +138,7 @@
             this.button2.Size = new System.Drawing.Size(170, 170);
             this.button2.TabIndex = 99;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -182,6 +184,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(125, 125);
             this.pictureBox4.TabIndex = 102;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox3
             // 

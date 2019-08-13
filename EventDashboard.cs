@@ -21,5 +21,23 @@ namespace Login
             var newForm = new Dashboard();
             newForm.Show();
         }
+
+        private void NMbtn_Click(object sender, EventArgs e)
+        {
+            var newForm = new Notification();
+            newForm.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var newForm = new Notification();
+            newForm.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            var newForm = new Notification();
+            newForm.Show();
+        }
     }
 }
