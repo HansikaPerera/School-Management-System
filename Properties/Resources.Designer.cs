@@ -73,6 +73,26 @@ namespace Login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap b3 {
+            get {
+                object obj = ResourceManager.GetObject("b3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap education_background_ppt_6 {
+            get {
+                object obj = ResourceManager.GetObject("education-background-ppt-6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap event_accepted {
             get {
                 object obj = ResourceManager.GetObject("event accepted", resourceCulture);
@@ -96,6 +116,16 @@ namespace Login.Properties {
         internal static System.Drawing.Bitmap HG_Work_Portfolio_2017_MNPS_Background {
             get {
                 object obj = ResourceManager.GetObject("HG-Work-Portfolio-2017-MNPS-Background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_database_administrator_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-database-administrator-50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
