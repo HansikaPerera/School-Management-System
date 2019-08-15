@@ -156,7 +156,7 @@
             // 
             // label9
             // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label9.AutoEllipsis = true;
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.PaleGoldenrod;
@@ -208,7 +208,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Image = global::Login.Properties.Resources.event_accepted;
             this.pictureBox2.Location = new System.Drawing.Point(398, 63);
