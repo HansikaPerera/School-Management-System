@@ -1,6 +1,6 @@
 ﻿namespace Login
 {
-    partial class StaffEventsDisplay
+    partial class StaffSocietyDisplay
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StaffEventsDisplay));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StaffSocietyDisplay));
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.button3 = new System.Windows.Forms.Button();
@@ -56,7 +56,7 @@
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 119);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(113, 403);
-            this.flowLayoutPanel2.TabIndex = 161;
+            this.flowLayoutPanel2.TabIndex = 166;
             // 
             // flowLayoutPanel3
             // 
@@ -127,11 +127,11 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.LightYellow;
             this.label9.Font = new System.Drawing.Font("Adobe Heiti Std R", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label9.Location = new System.Drawing.Point(400, 81);
+            this.label9.Location = new System.Drawing.Point(390, 81);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(150, 28);
-            this.label9.TabIndex = 165;
-            this.label9.Text = "Event Details";
+            this.label9.Size = new System.Drawing.Size(167, 28);
+            this.label9.TabIndex = 169;
+            this.label9.Text = "Society Details";
             // 
             // panel1
             // 
@@ -142,7 +142,7 @@
             this.panel1.Location = new System.Drawing.Point(113, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(722, 57);
-            this.panel1.TabIndex = 163;
+            this.panel1.TabIndex = 168;
             // 
             // pictureBox1
             // 
@@ -152,10 +152,10 @@
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(113, 119);
-            this.pictureBox1.TabIndex = 162;
+            this.pictureBox1.TabIndex = 167;
             this.pictureBox1.TabStop = false;
             // 
-            // StaffEventsDisplay
+            // StaffSocietyDisplay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -166,8 +166,8 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "StaffEventsDisplay";
-            this.Text = "StaffEventsDisplay";
+            this.Name = "StaffSocietyDisplay";
+            this.Text = "StaffSocietyDisplay";
             this.flowLayoutPanel2.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
