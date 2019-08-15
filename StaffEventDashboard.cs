@@ -6,20 +6,15 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Drawing.Drawing2D;
 
 namespace Login
 {
-    public partial class DashboardStaff : Form
+    public partial class StaffEventDashboard : Form
     {
-        public DashboardStaff()
+        public StaffEventDashboard()
         {
             InitializeComponent();
-        }
-
-        private void eventBtn_Click(object sender, EventArgs e)
-        {
-            var newForm = new StaffEventDashboard();
-            newForm.Show();
         }
     }
 }

@@ -190,6 +190,7 @@
             this.eventBtn.TabIndex = 49;
             this.eventBtn.Text = "          ";
             this.eventBtn.UseVisualStyleBackColor = false;
+            this.eventBtn.Click += new System.EventHandler(this.eventBtn_Click);
             // 
             // resultBtn
             // 

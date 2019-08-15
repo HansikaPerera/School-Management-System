@@ -44,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CircularButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,6 +58,12 @@
     </Compile>
     <Compile Include="DashboardStaff.Designer.cs">
       <DependentUpon>DashboardStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Event.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Event.Designer.cs">
+      <DependentUpon>Event.cs</DependentUpon>
     </Compile>
     <Compile Include="EventDashboard.cs">
       <SubType>Form</SubType>
@@ -76,11 +85,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Societies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Societies.Designer.cs">
+      <DependentUpon>Societies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffEventDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffEventDashboard.Designer.cs">
+      <DependentUpon>StaffEventDashboard.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DashboardStaff.resx">
       <DependentUpon>DashboardStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Event.resx">
+      <DependentUpon>Event.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EventDashboard.resx">
       <DependentUpon>EventDashboard.cs</DependentUpon>
@@ -101,6 +125,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Societies.resx">
+      <DependentUpon>Societies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffEventDashboard.resx">
+      <DependentUpon>StaffEventDashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -158,6 +188,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-database-administrator-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noti1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bb8baec8be1c5057ac42f20f09b415bb.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

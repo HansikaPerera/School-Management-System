@@ -103,6 +103,26 @@ namespace Login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap background1 {
+            get {
+                object obj = ResourceManager.GetObject("background1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bb8baec8be1c5057ac42f20f09b415bb {
+            get {
+                object obj = ResourceManager.GetObject("bb8baec8be1c5057ac42f20f09b415bb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap education_background_ppt_6 {
             get {
                 object obj = ResourceManager.GetObject("education-background-ppt-6", resourceCulture);
@@ -166,6 +186,16 @@ namespace Login.Properties {
         internal static System.Drawing.Bitmap noti {
             get {
                 object obj = ResourceManager.GetObject("noti", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap noti1 {
+            get {
+                object obj = ResourceManager.GetObject("noti1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
