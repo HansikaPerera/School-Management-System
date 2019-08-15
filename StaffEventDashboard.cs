@@ -16,5 +16,59 @@ namespace Login
         {
             InitializeComponent();
         }
+
+        private void EMbtn_Click(object sender, EventArgs e)
+        {
+            var newForm = new StaffEventsDisplay();
+            newForm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var newForm = new StaffEventsDisplay();
+            newForm.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            var newForm = new StaffEventsDisplay();
+            newForm.Show();
+        }
+
+        private void NMbtn_Click(object sender, EventArgs e)
+        {
+            var newForm = new StaffNotificationDisplay();
+            newForm.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var newForm = new StaffNotificationDisplay();
+            newForm.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            var newForm = new StaffNotificationDisplay();
+            newForm.Show();
+        }
+
+        private void SMbtn_Click(object sender, EventArgs e)
+        {
+            var newForm = new StaffSocietyDisplay();
+            newForm.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var newForm = new StaffSocietyDisplay();
+            newForm.Show();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            var newForm = new StaffSocietyDisplay();
+            newForm.Show();
+        }
     }
 }

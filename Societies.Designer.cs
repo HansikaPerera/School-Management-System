@@ -262,23 +262,30 @@
             // 
             // txtName
             // 
+            this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.txtName.Location = new System.Drawing.Point(261, 184);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(196, 20);
+            this.txtName.Size = new System.Drawing.Size(196, 21);
             this.txtName.TabIndex = 156;
             // 
             // txtNumber
             // 
+            this.txtNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumber.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.txtNumber.Location = new System.Drawing.Point(261, 229);
             this.txtNumber.Name = "txtNumber";
-            this.txtNumber.Size = new System.Drawing.Size(196, 20);
+            this.txtNumber.Size = new System.Drawing.Size(196, 21);
             this.txtNumber.TabIndex = 157;
+            this.txtNumber.Text = "         ";
             // 
             // txtTeacher
             // 
+            this.txtTeacher.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTeacher.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.txtTeacher.Location = new System.Drawing.Point(261, 274);
             this.txtTeacher.Name = "txtTeacher";
-            this.txtTeacher.Size = new System.Drawing.Size(196, 20);
+            this.txtTeacher.Size = new System.Drawing.Size(196, 21);
             this.txtTeacher.TabIndex = 163;
             // 
             // txtPresident

@@ -38,26 +38,26 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.NMbtn = new System.Windows.Forms.Button();
-            this.EMbtn = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.SMbtn = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.NMbtn = new System.Windows.Forms.Button();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.EMbtn = new System.Windows.Forms.Button();
+            this.SMbtn = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel3
@@ -159,135 +159,6 @@
             this.flowLayoutPanel2.Size = new System.Drawing.Size(113, 403);
             this.flowLayoutPanel2.TabIndex = 121;
             // 
-            // NMbtn
-            // 
-            this.NMbtn.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.NMbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
-            this.NMbtn.FlatAppearance.BorderColor = System.Drawing.Color.Bisque;
-            this.NMbtn.FlatAppearance.BorderSize = 2;
-            this.NMbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
-            this.NMbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.NMbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NMbtn.ForeColor = System.Drawing.Color.SeaShell;
-            this.NMbtn.Location = new System.Drawing.Point(282, 316);
-            this.NMbtn.Name = "NMbtn";
-            this.NMbtn.Size = new System.Drawing.Size(170, 45);
-            this.NMbtn.TabIndex = 119;
-            this.NMbtn.Text = "Notifications";
-            this.NMbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.NMbtn.UseVisualStyleBackColor = false;
-            // 
-            // EMbtn
-            // 
-            this.EMbtn.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.EMbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
-            this.EMbtn.FlatAppearance.BorderColor = System.Drawing.Color.Bisque;
-            this.EMbtn.FlatAppearance.BorderSize = 2;
-            this.EMbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
-            this.EMbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EMbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EMbtn.ForeColor = System.Drawing.Color.SeaShell;
-            this.EMbtn.Location = new System.Drawing.Point(60, 316);
-            this.EMbtn.Name = "EMbtn";
-            this.EMbtn.Size = new System.Drawing.Size(170, 45);
-            this.EMbtn.TabIndex = 118;
-            this.EMbtn.Text = "Events Near By";
-            this.EMbtn.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(495, 105);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(170, 170);
-            this.button3.TabIndex = 114;
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(60, 103);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(170, 170);
-            this.button1.TabIndex = 112;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // SMbtn
-            // 
-            this.SMbtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.SMbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
-            this.SMbtn.FlatAppearance.BorderColor = System.Drawing.Color.Bisque;
-            this.SMbtn.FlatAppearance.BorderSize = 2;
-            this.SMbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
-            this.SMbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SMbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SMbtn.ForeColor = System.Drawing.Color.SeaShell;
-            this.SMbtn.Location = new System.Drawing.Point(495, 316);
-            this.SMbtn.Name = "SMbtn";
-            this.SMbtn.Size = new System.Drawing.Size(170, 45);
-            this.SMbtn.TabIndex = 120;
-            this.SMbtn.Text = "Society Details";
-            this.SMbtn.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(12)))), ((int)(((byte)(2)))));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Image = global::Login.Properties.Resources.asoka_new;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(113, 119);
-            this.pictureBox1.TabIndex = 122;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Image = global::Login.Properties.Resources.society;
-            this.pictureBox5.Location = new System.Drawing.Point(518, 125);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(125, 125);
-            this.pictureBox5.TabIndex = 117;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Image = global::Login.Properties.Resources.event_icn;
-            this.pictureBox3.Location = new System.Drawing.Point(82, 125);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(125, 125);
-            this.pictureBox3.TabIndex = 115;
-            this.pictureBox3.TabStop = false;
-            // 
-            // button2
-            // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.button2.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(282, 105);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(170, 170);
-            this.button2.TabIndex = 113;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Image = global::Login.Properties.Resources.noti;
-            this.pictureBox4.Location = new System.Drawing.Point(304, 125);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(125, 125);
-            this.pictureBox4.TabIndex = 116;
-            this.pictureBox4.TabStop = false;
-            // 
             // panel4
             // 
             this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -309,6 +180,144 @@
             this.panel4.Size = new System.Drawing.Size(722, 464);
             this.panel4.TabIndex = 124;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Image = global::Login.Properties.Resources.event_icn;
+            this.pictureBox3.Location = new System.Drawing.Point(82, 125);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox3.TabIndex = 115;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Location = new System.Drawing.Point(60, 103);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(170, 170);
+            this.button1.TabIndex = 112;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Image = global::Login.Properties.Resources.noti;
+            this.pictureBox4.Location = new System.Drawing.Point(304, 125);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox4.TabIndex = 116;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
+            // button2
+            // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.button2.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Location = new System.Drawing.Point(282, 105);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(170, 170);
+            this.button2.TabIndex = 113;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // NMbtn
+            // 
+            this.NMbtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.NMbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
+            this.NMbtn.FlatAppearance.BorderColor = System.Drawing.Color.Bisque;
+            this.NMbtn.FlatAppearance.BorderSize = 2;
+            this.NMbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.NMbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.NMbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NMbtn.ForeColor = System.Drawing.Color.SeaShell;
+            this.NMbtn.Location = new System.Drawing.Point(282, 316);
+            this.NMbtn.Name = "NMbtn";
+            this.NMbtn.Size = new System.Drawing.Size(170, 45);
+            this.NMbtn.TabIndex = 119;
+            this.NMbtn.Text = "Notifications";
+            this.NMbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.NMbtn.UseVisualStyleBackColor = false;
+            this.NMbtn.Click += new System.EventHandler(this.NMbtn_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Image = global::Login.Properties.Resources.society;
+            this.pictureBox5.Location = new System.Drawing.Point(518, 125);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox5.TabIndex = 117;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            // 
+            // EMbtn
+            // 
+            this.EMbtn.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.EMbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
+            this.EMbtn.FlatAppearance.BorderColor = System.Drawing.Color.Bisque;
+            this.EMbtn.FlatAppearance.BorderSize = 2;
+            this.EMbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.EMbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EMbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EMbtn.ForeColor = System.Drawing.Color.SeaShell;
+            this.EMbtn.Location = new System.Drawing.Point(60, 316);
+            this.EMbtn.Name = "EMbtn";
+            this.EMbtn.Size = new System.Drawing.Size(170, 45);
+            this.EMbtn.TabIndex = 118;
+            this.EMbtn.Text = "Events Near By";
+            this.EMbtn.UseVisualStyleBackColor = false;
+            this.EMbtn.Click += new System.EventHandler(this.EMbtn_Click);
+            // 
+            // SMbtn
+            // 
+            this.SMbtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.SMbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
+            this.SMbtn.FlatAppearance.BorderColor = System.Drawing.Color.Bisque;
+            this.SMbtn.FlatAppearance.BorderSize = 2;
+            this.SMbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.SMbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SMbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SMbtn.ForeColor = System.Drawing.Color.SeaShell;
+            this.SMbtn.Location = new System.Drawing.Point(495, 316);
+            this.SMbtn.Name = "SMbtn";
+            this.SMbtn.Size = new System.Drawing.Size(170, 45);
+            this.SMbtn.TabIndex = 120;
+            this.SMbtn.Text = "Society Details";
+            this.SMbtn.UseVisualStyleBackColor = false;
+            this.SMbtn.Click += new System.EventHandler(this.SMbtn_Click);
+            // 
+            // button3
+            // 
+            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button3.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.button3.Location = new System.Drawing.Point(495, 105);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(170, 170);
+            this.button3.TabIndex = 114;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(12)))), ((int)(((byte)(2)))));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Image = global::Login.Properties.Resources.asoka_new;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(113, 119);
+            this.pictureBox1.TabIndex = 122;
+            this.pictureBox1.TabStop = false;
+            // 
             // StaffEventDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -328,11 +337,11 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.flowLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
