@@ -262,32 +262,32 @@
             // txtName
             // 
             this.txtName.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.txtName.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtName.Location = new System.Drawing.Point(275, 210);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(222, 21);
+            this.txtName.Size = new System.Drawing.Size(222, 20);
             this.txtName.TabIndex = 156;
             // 
             // txtNumber
             // 
             this.txtNumber.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumber.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.txtNumber.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtNumber.Location = new System.Drawing.Point(275, 265);
             this.txtNumber.Name = "txtNumber";
-            this.txtNumber.Size = new System.Drawing.Size(222, 21);
+            this.txtNumber.Size = new System.Drawing.Size(222, 20);
             this.txtNumber.TabIndex = 157;
             this.txtNumber.Text = "         ";
             // 
             // txtTeacher
             // 
             this.txtTeacher.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtTeacher.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTeacher.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtTeacher.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.txtTeacher.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtTeacher.Location = new System.Drawing.Point(275, 320);
             this.txtTeacher.Name = "txtTeacher";
-            this.txtTeacher.Size = new System.Drawing.Size(222, 21);
+            this.txtTeacher.Size = new System.Drawing.Size(222, 20);
             this.txtTeacher.TabIndex = 163;
             // 
             // txtPresident

@@ -149,16 +149,26 @@ namespace Login
             {
                 if (sqlConn.State == ConnectionState.Closed)
                     sqlConn.Open();
-                SqlCommand sqlCmd = new SqlCommand("AssociationDelete_Procedure", sqlConn);
-                sqlCmd.CommandType = CommandType.StoredProcedure;
-                sqlCmd.Parameters.AddWithValue("@AssociationID", txtID.Text);
 
-                sqlCmd.ExecuteNonQuery();
+                if (MessageBox.Show("Do you want to delete this Society ?", "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    SqlCommand sqlCmd = new SqlCommand("AssociationDelete_Procedure", sqlConn);
+                    sqlCmd.CommandType = CommandType.StoredProcedure;
+                    sqlCmd.Parameters.AddWithValue("@AssociationID", txtID.Text);
 
-                MessageBox.Show("Deleted Successfully.");
+                    sqlCmd.ExecuteNonQuery();
 
-                fillDataGridView();
-                reset();
+                    MessageBox.Show("Deleted Successfully.");
+
+                    fillDataGridView();
+                    reset();
+                }
+
+                else
+                {
+                    MessageBox.Show("Society not deleted.", "Delete", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+
             }
             catch (Exception ex)
             {

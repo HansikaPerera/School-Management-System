@@ -127,16 +127,26 @@ namespace Login
             {
                 if (sqlConn.State == ConnectionState.Closed)
                     sqlConn.Open();
-                SqlCommand sqlCmd = new SqlCommand("NotificationDelete_Procedure", sqlConn);
-                sqlCmd.CommandType = CommandType.StoredProcedure;
-                sqlCmd.Parameters.AddWithValue("@NotificationID", txtID.Text);
+                if (MessageBox.Show("Do you want to delete this Notification ?", "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
 
-                sqlCmd.ExecuteNonQuery();
+                    SqlCommand sqlCmd = new SqlCommand("NotificationDelete_Procedure", sqlConn);
+                    sqlCmd.CommandType = CommandType.StoredProcedure;
+                    sqlCmd.Parameters.AddWithValue("@NotificationID", txtID.Text);
 
-                MessageBox.Show("Deleted Successfully.");
+                    sqlCmd.ExecuteNonQuery();
 
-                fillDataGridView();
-                reset();
+                    MessageBox.Show("Deleted Successfully.");
+
+                    fillDataGridView();
+                    reset();
+                }
+
+                else
+                {
+                    MessageBox.Show("Notification not deleted.", "Delete", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
             }
             catch (Exception ex)
             {
