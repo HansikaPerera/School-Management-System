@@ -101,7 +101,7 @@
             this.panel1.Controls.Add(this.flowLayoutPanel1);
             this.panel1.Location = new System.Drawing.Point(113, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(722, 57);
+            this.panel1.Size = new System.Drawing.Size(867, 57);
             this.panel1.TabIndex = 123;
             // 
             // flowLayoutPanel1
@@ -111,7 +111,7 @@
             this.flowLayoutPanel1.Controls.Add(this.panel3);
             this.flowLayoutPanel1.Controls.Add(this.panel2);
             this.flowLayoutPanel1.ForeColor = System.Drawing.Color.White;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(72, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(710, 57);
             this.flowLayoutPanel1.TabIndex = 32;
@@ -156,7 +156,7 @@
             this.flowLayoutPanel2.Controls.Add(this.dashboardBtn);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 119);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(113, 403);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(113, 442);
             this.flowLayoutPanel2.TabIndex = 121;
             // 
             // panel4
@@ -177,7 +177,7 @@
             this.panel4.Controls.Add(this.button3);
             this.panel4.Location = new System.Drawing.Point(113, 58);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(722, 464);
+            this.panel4.Size = new System.Drawing.Size(867, 503);
             this.panel4.TabIndex = 124;
             // 
             // pictureBox3
@@ -185,9 +185,10 @@
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Image = global::Login.Properties.Resources.event_icn;
-            this.pictureBox3.Location = new System.Drawing.Point(82, 125);
+            this.pictureBox3.Location = new System.Drawing.Point(77, 146);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox3.Size = new System.Drawing.Size(155, 155);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 115;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
@@ -197,9 +198,9 @@
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(60, 103);
+            this.button1.Location = new System.Drawing.Point(60, 128);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(170, 170);
+            this.button1.Size = new System.Drawing.Size(190, 190);
             this.button1.TabIndex = 112;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -209,9 +210,10 @@
             this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Image = global::Login.Properties.Resources.noti;
-            this.pictureBox4.Location = new System.Drawing.Point(304, 125);
+            this.pictureBox4.Location = new System.Drawing.Point(358, 148);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox4.Size = new System.Drawing.Size(155, 155);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 116;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
@@ -221,9 +223,9 @@
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button2.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(282, 105);
+            this.button2.Location = new System.Drawing.Point(341, 130);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(170, 170);
+            this.button2.Size = new System.Drawing.Size(190, 190);
             this.button2.TabIndex = 113;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -238,9 +240,9 @@
             this.NMbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NMbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NMbtn.ForeColor = System.Drawing.Color.SeaShell;
-            this.NMbtn.Location = new System.Drawing.Point(282, 316);
+            this.NMbtn.Location = new System.Drawing.Point(341, 341);
             this.NMbtn.Name = "NMbtn";
-            this.NMbtn.Size = new System.Drawing.Size(170, 45);
+            this.NMbtn.Size = new System.Drawing.Size(190, 45);
             this.NMbtn.TabIndex = 119;
             this.NMbtn.Text = "Notifications";
             this.NMbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
@@ -252,9 +254,10 @@
             this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox5.Image = global::Login.Properties.Resources.society;
-            this.pictureBox5.Location = new System.Drawing.Point(518, 125);
+            this.pictureBox5.Location = new System.Drawing.Point(634, 148);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox5.Size = new System.Drawing.Size(155, 155);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 117;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
@@ -269,9 +272,9 @@
             this.EMbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.EMbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EMbtn.ForeColor = System.Drawing.Color.SeaShell;
-            this.EMbtn.Location = new System.Drawing.Point(60, 316);
+            this.EMbtn.Location = new System.Drawing.Point(60, 341);
             this.EMbtn.Name = "EMbtn";
-            this.EMbtn.Size = new System.Drawing.Size(170, 45);
+            this.EMbtn.Size = new System.Drawing.Size(190, 45);
             this.EMbtn.TabIndex = 118;
             this.EMbtn.Text = "Events Near By";
             this.EMbtn.UseVisualStyleBackColor = false;
@@ -287,9 +290,9 @@
             this.SMbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SMbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SMbtn.ForeColor = System.Drawing.Color.SeaShell;
-            this.SMbtn.Location = new System.Drawing.Point(495, 316);
+            this.SMbtn.Location = new System.Drawing.Point(616, 341);
             this.SMbtn.Name = "SMbtn";
-            this.SMbtn.Size = new System.Drawing.Size(170, 45);
+            this.SMbtn.Size = new System.Drawing.Size(190, 45);
             this.SMbtn.TabIndex = 120;
             this.SMbtn.Text = "Society Details";
             this.SMbtn.UseVisualStyleBackColor = false;
@@ -302,9 +305,9 @@
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(495, 105);
+            this.button3.Location = new System.Drawing.Point(616, 130);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(170, 170);
+            this.button3.Size = new System.Drawing.Size(190, 190);
             this.button3.TabIndex = 114;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -325,7 +328,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(835, 522);
+            this.ClientSize = new System.Drawing.Size(980, 561);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);

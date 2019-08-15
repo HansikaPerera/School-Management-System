@@ -61,7 +61,7 @@
             this.flowLayoutPanel2.Controls.Add(this.button3);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 119);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(113, 403);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(113, 442);
             this.flowLayoutPanel2.TabIndex = 34;
             // 
             // flowLayoutPanel3
@@ -122,7 +122,7 @@
             this.flowLayoutPanel1.Controls.Add(this.panel3);
             this.flowLayoutPanel1.Controls.Add(this.panel2);
             this.flowLayoutPanel1.ForeColor = System.Drawing.Color.White;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(72, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(710, 57);
             this.flowLayoutPanel1.TabIndex = 32;
@@ -133,9 +133,9 @@
             this.subjectBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.subjectBtn.BackgroundImage = global::Login.Properties.Resources.subject;
             this.subjectBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.subjectBtn.Location = new System.Drawing.Point(135, 119);
+            this.subjectBtn.Location = new System.Drawing.Point(131, 131);
             this.subjectBtn.Name = "subjectBtn";
-            this.subjectBtn.Size = new System.Drawing.Size(185, 145);
+            this.subjectBtn.Size = new System.Drawing.Size(200, 145);
             this.subjectBtn.TabIndex = 40;
             this.subjectBtn.UseVisualStyleBackColor = true;
             // 
@@ -145,9 +145,9 @@
             this.staffBtn.BackColor = System.Drawing.Color.DarkRed;
             this.staffBtn.BackgroundImage = global::Login.Properties.Resources.staff;
             this.staffBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.staffBtn.Location = new System.Drawing.Point(384, 365);
+            this.staffBtn.Location = new System.Drawing.Point(451, 418);
             this.staffBtn.Name = "staffBtn";
-            this.staffBtn.Size = new System.Drawing.Size(185, 145);
+            this.staffBtn.Size = new System.Drawing.Size(200, 145);
             this.staffBtn.TabIndex = 40;
             this.staffBtn.UseVisualStyleBackColor = false;
             // 
@@ -159,9 +159,9 @@
             this.oldBoysBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.oldBoysBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.oldBoysBtn.ForeColor = System.Drawing.Color.Maroon;
-            this.oldBoysBtn.Location = new System.Drawing.Point(631, 317);
+            this.oldBoysBtn.Location = new System.Drawing.Point(767, 347);
             this.oldBoysBtn.Name = "oldBoysBtn";
-            this.oldBoysBtn.Size = new System.Drawing.Size(185, 145);
+            this.oldBoysBtn.Size = new System.Drawing.Size(200, 145);
             this.oldBoysBtn.TabIndex = 40;
             this.oldBoysBtn.Text = "                                  ";
             this.oldBoysBtn.UseVisualStyleBackColor = false;
@@ -174,9 +174,9 @@
             this.libraryBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.libraryBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.libraryBtn.ForeColor = System.Drawing.Color.Maroon;
-            this.libraryBtn.Location = new System.Drawing.Point(384, 211);
+            this.libraryBtn.Location = new System.Drawing.Point(451, 237);
             this.libraryBtn.Name = "libraryBtn";
-            this.libraryBtn.Size = new System.Drawing.Size(185, 145);
+            this.libraryBtn.Size = new System.Drawing.Size(200, 145);
             this.libraryBtn.TabIndex = 40;
             this.libraryBtn.Text = "                                           ";
             this.libraryBtn.UseVisualStyleBackColor = false;
@@ -189,9 +189,9 @@
             this.eventBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.eventBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eventBtn.ForeColor = System.Drawing.Color.Maroon;
-            this.eventBtn.Location = new System.Drawing.Point(135, 317);
+            this.eventBtn.Location = new System.Drawing.Point(131, 347);
             this.eventBtn.Name = "eventBtn";
-            this.eventBtn.Size = new System.Drawing.Size(185, 145);
+            this.eventBtn.Size = new System.Drawing.Size(200, 145);
             this.eventBtn.TabIndex = 40;
             this.eventBtn.Text = "          ";
             this.eventBtn.UseVisualStyleBackColor = false;
@@ -203,9 +203,9 @@
             this.resultBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.resultBtn.BackgroundImage = global::Login.Properties.Resources.result;
             this.resultBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.resultBtn.Location = new System.Drawing.Point(631, 119);
+            this.resultBtn.Location = new System.Drawing.Point(767, 130);
             this.resultBtn.Name = "resultBtn";
-            this.resultBtn.Size = new System.Drawing.Size(185, 145);
+            this.resultBtn.Size = new System.Drawing.Size(200, 145);
             this.resultBtn.TabIndex = 40;
             this.resultBtn.UseVisualStyleBackColor = false;
             // 
@@ -217,9 +217,9 @@
             this.studentBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.studentBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.studentBtn.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.studentBtn.Location = new System.Drawing.Point(384, 60);
+            this.studentBtn.Location = new System.Drawing.Point(451, 59);
             this.studentBtn.Name = "studentBtn";
-            this.studentBtn.Size = new System.Drawing.Size(185, 145);
+            this.studentBtn.Size = new System.Drawing.Size(200, 145);
             this.studentBtn.TabIndex = 40;
             this.studentBtn.Text = "      ";
             this.studentBtn.UseVisualStyleBackColor = false;
@@ -243,7 +243,7 @@
             this.panel1.Controls.Add(this.flowLayoutPanel1);
             this.panel1.Location = new System.Drawing.Point(113, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(722, 57);
+            this.panel1.Size = new System.Drawing.Size(867, 57);
             this.panel1.TabIndex = 43;
             // 
             // Dashboard
@@ -252,7 +252,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Login.Properties.Resources.HG_Work_Portfolio_2017_MNPS_Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(835, 522);
+            this.ClientSize = new System.Drawing.Size(980, 561);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.subjectBtn);

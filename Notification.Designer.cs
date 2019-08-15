@@ -59,7 +59,7 @@
             this.flowLayoutPanel2.Controls.Add(this.button3);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 119);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(113, 403);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(113, 442);
             this.flowLayoutPanel2.TabIndex = 54;
             // 
             // flowLayoutPanel3
@@ -120,7 +120,7 @@
             this.flowLayoutPanel1.Controls.Add(this.panel3);
             this.flowLayoutPanel1.Controls.Add(this.panel2);
             this.flowLayoutPanel1.ForeColor = System.Drawing.Color.White;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(72, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(710, 57);
             this.flowLayoutPanel1.TabIndex = 32;
@@ -133,7 +133,7 @@
             this.panel1.Controls.Add(this.flowLayoutPanel1);
             this.panel1.Location = new System.Drawing.Point(113, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(722, 57);
+            this.panel1.Size = new System.Drawing.Size(867, 57);
             this.panel1.TabIndex = 56;
             // 
             // pictureBox1
@@ -152,7 +152,7 @@
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Image = global::Login.Properties.Resources.icons8_database_administrator_50;
-            this.pictureBox3.Location = new System.Drawing.Point(597, 69);
+            this.pictureBox3.Location = new System.Drawing.Point(670, 69);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(48, 50);
             this.pictureBox3.TabIndex = 148;
@@ -164,7 +164,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label9.Font = new System.Drawing.Font("Adobe Heiti Std R", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label9.Location = new System.Drawing.Point(382, 83);
+            this.label9.Location = new System.Drawing.Point(455, 83);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(206, 20);
             this.label9.TabIndex = 147;
@@ -174,7 +174,7 @@
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox2.Image = global::Login.Properties.Resources.event_accepted;
-            this.pictureBox2.Location = new System.Drawing.Point(307, 63);
+            this.pictureBox2.Location = new System.Drawing.Point(380, 63);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(65, 66);
             this.pictureBox2.TabIndex = 146;
@@ -186,7 +186,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Login.Properties.Resources.education_background_ppt_6;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(835, 522);
+            this.ClientSize = new System.Drawing.Size(980, 561);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.pictureBox2);
