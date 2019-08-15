@@ -129,31 +129,31 @@
             // 
             // subjectBtn
             // 
-            this.subjectBtn.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.subjectBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.subjectBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.subjectBtn.BackgroundImage = global::Login.Properties.Resources.subject;
             this.subjectBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.subjectBtn.Location = new System.Drawing.Point(159, 119);
+            this.subjectBtn.Location = new System.Drawing.Point(135, 119);
             this.subjectBtn.Name = "subjectBtn";
-            this.subjectBtn.Size = new System.Drawing.Size(170, 130);
+            this.subjectBtn.Size = new System.Drawing.Size(185, 145);
             this.subjectBtn.TabIndex = 40;
             this.subjectBtn.UseVisualStyleBackColor = true;
             // 
             // staffBtn
             // 
-            this.staffBtn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.staffBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.staffBtn.BackColor = System.Drawing.Color.DarkRed;
             this.staffBtn.BackgroundImage = global::Login.Properties.Resources.staff;
             this.staffBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.staffBtn.Location = new System.Drawing.Point(396, 380);
+            this.staffBtn.Location = new System.Drawing.Point(384, 365);
             this.staffBtn.Name = "staffBtn";
-            this.staffBtn.Size = new System.Drawing.Size(170, 130);
+            this.staffBtn.Size = new System.Drawing.Size(185, 145);
             this.staffBtn.TabIndex = 40;
             this.staffBtn.UseVisualStyleBackColor = false;
             // 
             // oldBoysBtn
             // 
-            this.oldBoysBtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.oldBoysBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.oldBoysBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.oldBoysBtn.BackgroundImage = global::Login.Properties.Resources.old_bys;
             this.oldBoysBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -161,7 +161,7 @@
             this.oldBoysBtn.ForeColor = System.Drawing.Color.Maroon;
             this.oldBoysBtn.Location = new System.Drawing.Point(631, 317);
             this.oldBoysBtn.Name = "oldBoysBtn";
-            this.oldBoysBtn.Size = new System.Drawing.Size(170, 130);
+            this.oldBoysBtn.Size = new System.Drawing.Size(185, 145);
             this.oldBoysBtn.TabIndex = 40;
             this.oldBoysBtn.Text = "                                  ";
             this.oldBoysBtn.UseVisualStyleBackColor = false;
@@ -174,24 +174,24 @@
             this.libraryBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.libraryBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.libraryBtn.ForeColor = System.Drawing.Color.Maroon;
-            this.libraryBtn.Location = new System.Drawing.Point(396, 221);
+            this.libraryBtn.Location = new System.Drawing.Point(384, 211);
             this.libraryBtn.Name = "libraryBtn";
-            this.libraryBtn.Size = new System.Drawing.Size(170, 130);
+            this.libraryBtn.Size = new System.Drawing.Size(185, 145);
             this.libraryBtn.TabIndex = 40;
             this.libraryBtn.Text = "                                           ";
             this.libraryBtn.UseVisualStyleBackColor = false;
             // 
             // eventBtn
             // 
-            this.eventBtn.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.eventBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.eventBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.eventBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("eventBtn.BackgroundImage")));
             this.eventBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.eventBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eventBtn.ForeColor = System.Drawing.Color.Maroon;
-            this.eventBtn.Location = new System.Drawing.Point(159, 317);
+            this.eventBtn.Location = new System.Drawing.Point(135, 317);
             this.eventBtn.Name = "eventBtn";
-            this.eventBtn.Size = new System.Drawing.Size(170, 130);
+            this.eventBtn.Size = new System.Drawing.Size(185, 145);
             this.eventBtn.TabIndex = 40;
             this.eventBtn.Text = "          ";
             this.eventBtn.UseVisualStyleBackColor = false;
@@ -199,27 +199,27 @@
             // 
             // resultBtn
             // 
-            this.resultBtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.resultBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.resultBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.resultBtn.BackgroundImage = global::Login.Properties.Resources.result;
             this.resultBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.resultBtn.Location = new System.Drawing.Point(631, 119);
             this.resultBtn.Name = "resultBtn";
-            this.resultBtn.Size = new System.Drawing.Size(170, 130);
+            this.resultBtn.Size = new System.Drawing.Size(185, 145);
             this.resultBtn.TabIndex = 40;
             this.resultBtn.UseVisualStyleBackColor = false;
             // 
             // studentBtn
             // 
-            this.studentBtn.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.studentBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.studentBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.studentBtn.BackgroundImage = global::Login.Properties.Resources.student;
             this.studentBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.studentBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.studentBtn.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.studentBtn.Location = new System.Drawing.Point(396, 60);
+            this.studentBtn.Location = new System.Drawing.Point(384, 60);
             this.studentBtn.Name = "studentBtn";
-            this.studentBtn.Size = new System.Drawing.Size(170, 130);
+            this.studentBtn.Size = new System.Drawing.Size(185, 145);
             this.studentBtn.TabIndex = 40;
             this.studentBtn.Text = "      ";
             this.studentBtn.UseVisualStyleBackColor = false;

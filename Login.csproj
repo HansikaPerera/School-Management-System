@@ -97,6 +97,24 @@
     <Compile Include="StaffEventDashboard.Designer.cs">
       <DependentUpon>StaffEventDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="StaffEventsDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffEventsDisplay.Designer.cs">
+      <DependentUpon>StaffEventsDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffNotificationDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffNotificationDisplay.Designer.cs">
+      <DependentUpon>StaffNotificationDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffSocietyDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffSocietyDisplay.Designer.cs">
+      <DependentUpon>StaffSocietyDisplay.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,6 +148,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StaffEventDashboard.resx">
       <DependentUpon>StaffEventDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffEventsDisplay.resx">
+      <DependentUpon>StaffEventsDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffNotificationDisplay.resx">
+      <DependentUpon>StaffNotificationDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffSocietyDisplay.resx">
+      <DependentUpon>StaffSocietyDisplay.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -203,6 +230,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bb8baec8be1c5057ac42f20f09b415bb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
