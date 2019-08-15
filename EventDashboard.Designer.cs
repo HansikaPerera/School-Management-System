@@ -77,6 +77,7 @@
             this.SMbtn.TabIndex = 106;
             this.SMbtn.Text = "Society Management";
             this.SMbtn.UseVisualStyleBackColor = false;
+            this.SMbtn.Click += new System.EventHandler(this.SMbtn_Click);
             // 
             // NMbtn
             // 
@@ -114,6 +115,7 @@
             this.EMbtn.TabIndex = 104;
             this.EMbtn.Text = "Event Management";
             this.EMbtn.UseVisualStyleBackColor = false;
+            this.EMbtn.Click += new System.EventHandler(this.EMbtn_Click);
             // 
             // button3
             // 
@@ -127,6 +129,7 @@
             this.button3.Size = new System.Drawing.Size(170, 170);
             this.button3.TabIndex = 100;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -149,6 +152,7 @@
             this.button1.Size = new System.Drawing.Size(170, 170);
             this.button1.TabIndex = 98;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label9
             // 
@@ -173,6 +177,7 @@
             this.pictureBox5.Size = new System.Drawing.Size(125, 125);
             this.pictureBox5.TabIndex = 103;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox4
             // 
@@ -195,6 +200,7 @@
             this.pictureBox3.Size = new System.Drawing.Size(125, 125);
             this.pictureBox3.TabIndex = 101;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox2
             // 

@@ -9,13 +9,11 @@ using System.Windows.Forms;
 
 namespace Login
 {
-    public partial class Notification : Form
+    public partial class Event : Form
     {
-        public Notification()
+        public Event()
         {
             InitializeComponent();
         }
-
-       
     }
 }

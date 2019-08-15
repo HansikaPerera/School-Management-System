@@ -39,5 +39,41 @@ namespace Login
             var newForm = new Notification();
             newForm.Show();
         }
+
+        private void EMbtn_Click(object sender, EventArgs e)
+        {
+            var newForm = new Event();
+            newForm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var newForm = new Event();
+            newForm.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            var newForm = new Event();
+            newForm.Show();
+        }
+
+        private void SMbtn_Click(object sender, EventArgs e)
+        {
+            var newForm = new Societies();
+            newForm.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var newForm = new Societies();
+            newForm.Show();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            var newForm = new Societies();
+            newForm.Show();
+        }
     }
 }
