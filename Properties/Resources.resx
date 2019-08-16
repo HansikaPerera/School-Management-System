@@ -118,43 +118,154 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="subject" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\subject.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="113259274-job-interview-and-recruiting-hr-agency-concept-staff-recruitment-human-resource-search-and-selection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\113259274-job-interview-and-recruiting-hr-agency-concept-staff-recruitment-human-resource-search-and-selection.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="event accepted" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\event accepted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="staff1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\staff1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="noti" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\noti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="how-to-generate-maximum-engagement-with-your-email-marketing1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\how-to-generate-maximum-engagement-with-your-email-marketing1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="old bys" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\old bys.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="seamless-pattern-letter-sms-e-mail-symbols-texture-background-40964288" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seamless-pattern-letter-sms-e-mail-symbols-texture-background-40964288.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\staff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="istockphoto-496954602-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-496954602-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="library" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\library.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1573969-about-us-guru-school-the-has-a-cute-teachers-clipart-march-teacher-teaching-english-png-2710_2338_preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1573969-about-us-guru-school-the-has-a-cute-teachers-clipart-march-teacher-teaching-english-png-2710_2338_preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="asoka new" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\asoka new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="event icn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\event icn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="elegant-white-background-with-shiny-lines_1017-175801" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elegant-white-background-with-shiny-lines_1017-175801.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="HG-Work-Portfolio-2017-MNPS-Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HG-Work-Portfolio-2017-MNPS-Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="personal-trainer-email-marketing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\personal-trainer-email-marketing.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="preview-write-effective-email-sales-pitch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\preview-write-effective-email-sales-pitch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="society" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\society.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="header-teacher-account-400x3001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\header-teacher-account-400x3001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="top-view-business-office-desk-background-the-applying-for-a-job-form-and-pen-pencil-eyeglasses-tree-on-wooden-table-background-with-copy-space_1921-21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\top-view-business-office-desk-background-the-applying-for-a-job-form-and-pen-pencil-eyeglasses-tree-on-wooden-table-background-with-copy-space_1921-21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wcpsZm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wcpsZm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ded50242578fc7ed06cbb1eb4ec746c3_28-collection-of-science-clipart-for-teachers-high-quality-_736-824" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ded50242578fc7ed06cbb1eb4ec746c3_28-collection-of-science-clipart-for-teachers-high-quality-_736-824.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="library" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\library.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="subject" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\subject.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="teacher-background-wallpaper-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\teacher-background-wallpaper-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="email" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\email.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Videos_for_Corporate_Presentations-770x360" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Videos_for_Corporate_Presentations-770x360.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_to_school_background_teacher_chalkboard_icons_6828309" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_to_school_background_teacher_chalkboard_icons_6828309.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="offer-salary-banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\offer-salary-banner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-671550892-1024x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-671550892-1024x1024.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="the-hills-shire-council-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\the-hills-shire-council-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business-people-talking-office-building_40876-657" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business-people-talking-office-building_40876-657.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="321856" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\321856.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="how-to-generate-maximum-engagement-with-your-email-marketing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\how-to-generate-maximum-engagement-with-your-email-marketing.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="old bys" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\old bys.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="header-teacher-account-400x300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\header-teacher-account-400x300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1338755-back-to-school-background-teacher-chalkboard-icons-free-png-psd-ai-and-vector-fomat-blackboard-with-teacher-png-526_368_preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1338755-back-to-school-background-teacher-chalkboard-icons-free-png-psd-ai-and-vector-fomat-blackboard-with-teacher-png-526_368_preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="top-view-accessories-business-office-desk-notebook-pen-paper-note-white-background-with-copy-space_1921-475" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\top-view-accessories-business-office-desk-notebook-pen-paper-note-white-background-with-copy-space_1921-475.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asoka new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asoka new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elementary_teaching_theme_teacher_pupil_icons_cartoon_design_6831459" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elementary_teaching_theme_teacher_pupil_icons_cartoon_design_6831459.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="30425873" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\30425873.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event icn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event icn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="email-marketing-1051152514-5bc8b2d446e0fb0026c39b2a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\email-marketing-1051152514-5bc8b2d446e0fb0026c39b2a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="event accepted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\event accepted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="39266748-career-design-concept-set-with-staff-recruitment-and-selection-flat-icons-isolated-vector-illustrati" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\39266748-career-design-concept-set-with-staff-recruitment-and-selection-flat-icons-isolated-vector-illustrati.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asoka new1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asoka new1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="result" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\result.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Untitled-1-1024x512 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled-1-1024x512 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="student" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\student.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wcpsZm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wcpsZm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\staff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elegant-white-background-with-shiny-lines_1017-17580" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elegant-white-background-with-shiny-lines_1017-17580.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="email-blasts-resize-border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\email-blasts-resize-border.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

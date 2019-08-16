@@ -8,3 +8,22 @@ C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\
 C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.exe
 C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.pdb
 C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.EventDashboard.resources
+F:\School Management Sysyem\School-Management-System\obj\Debug\Login.exe
+F:\School Management Sysyem\School-Management-System\obj\Debug\Login.pdb
+F:\School Management Sysyem\School-Management-System\bin\Debug\Login.exe
+F:\School Management Sysyem\School-Management-System\bin\Debug\Login.pdb
+F:\School Management Sysyem\School-Management-System\obj\Debug\Login.csprojResolveAssemblyReference.cache
+F:\School Management Sysyem\School-Management-System\obj\Debug\Login.AcademicToDash.resources
+F:\School Management Sysyem\School-Management-System\obj\Debug\Login.Dashboard.resources
+F:\School Management Sysyem\School-Management-System\obj\Debug\Login.EventDashboard.resources
+F:\School Management Sysyem\School-Management-System\obj\Debug\Login.Form1.resources
+F:\School Management Sysyem\School-Management-System\obj\Debug\Login.Non_Academic_Staff_Mng.resources
+F:\School Management Sysyem\School-Management-System\obj\Debug\Login.Properties.Resources.resources
+F:\School Management Sysyem\School-Management-System\obj\Debug\Login.sub_staff_dashboard.resources
+F:\School Management Sysyem\School-Management-System\obj\Debug\Login.csproj.GenerateResource.Cache
+F:\School Management Sysyem\School-Management-System\obj\Debug\Login.Academic_staff_Account.resources
+F:\School Management Sysyem\School-Management-System\obj\Debug\Login.Aca_Email.resources
+F:\School Management Sysyem\School-Management-System\obj\Debug\Login.Account_dashboard.resources
+F:\School Management Sysyem\School-Management-System\obj\Debug\Login.Non_academic_Account.resources
+F:\School Management Sysyem\School-Management-System\obj\Debug\Login.Non_aca_Email.resources
+F:\School Management Sysyem\School-Management-System\bin\Debug\itextsharp.dll

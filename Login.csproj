@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>C:\Users\Admin\Documents\Visual Studio 2015\Projects\DashboardAdminStaff\DashboardAdminStaff\lib\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,6 +47,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcademicToDash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcademicToDash.Designer.cs">
+      <DependentUpon>AcademicToDash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Academic_staff_Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Academic_staff_Account.Designer.cs">
+      <DependentUpon>Academic_staff_Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aca_Email.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aca_Email.Designer.cs">
+      <DependentUpon>Aca_Email.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Account_dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account_dashboard.Designer.cs">
+      <DependentUpon>Account_dashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,8 +89,44 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Non_academic_Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Non_academic_Account.Designer.cs">
+      <DependentUpon>Non_academic_Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Non_Academic_Staff_Mng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Non_Academic_Staff_Mng.Designer.cs">
+      <DependentUpon>Non_Academic_Staff_Mng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Non_aca_Email.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Non_aca_Email.Designer.cs">
+      <DependentUpon>Non_aca_Email.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sub_staff_dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sub_staff_dashboard.Designer.cs">
+      <DependentUpon>sub_staff_dashboard.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AcademicToDash.resx">
+      <DependentUpon>AcademicToDash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Academic_staff_Account.resx">
+      <DependentUpon>Academic_staff_Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aca_Email.resx">
+      <DependentUpon>Aca_Email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Account_dashboard.resx">
+      <DependentUpon>Account_dashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -72,6 +135,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Non_academic_Account.resx">
+      <DependentUpon>Non_academic_Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Non_Academic_Staff_Mng.resx">
+      <DependentUpon>Non_Academic_Staff_Mng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Non_aca_Email.resx">
+      <DependentUpon>Non_aca_Email.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -83,6 +155,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="sub_staff_dashboard.resx">
+      <DependentUpon>sub_staff_dashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -131,6 +206,117 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\wcpsZm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1338755-back-to-school-background-teacher-chalkboard-icons-free-png-psd-ai-and-vector-fomat-blackboard-with-teacher-png-526_368_preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_to_school_background_teacher_chalkboard_icons_6828309.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asoka new1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\113259274-job-interview-and-recruiting-hr-agency-concept-staff-recruitment-human-resource-search-and-selection.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\39266748-career-design-concept-set-with-staff-recruitment-and-selection-flat-icons-isolated-vector-illustrati.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30425873.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ded50242578fc7ed06cbb1eb4ec746c3_28-collection-of-science-clipart-for-teachers-high-quality-_736-824.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1573969-about-us-guru-school-the-has-a-cute-teachers-clipart-march-teacher-teaching-english-png-2710_2338_preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elegant-white-background-with-shiny-lines_1017-17580.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elegant-white-background-with-shiny-lines_1017-175801.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elementary_teaching_theme_teacher_pupil_icons_cartoon_design_6831459.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\the-hills-shire-council-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Videos_for_Corporate_Presentations-770x360.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-people-talking-office-building_40876-657.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\header-teacher-account-400x300.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\header-teacher-account-400x3001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\offer-salary-banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\how-to-generate-maximum-engagement-with-your-email-marketing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\how-to-generate-maximum-engagement-with-your-email-marketing1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personal-trainer-email-marketing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email-marketing-1051152514-5bc8b2d446e0fb0026c39b2a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seamless-pattern-letter-sms-e-mail-symbols-texture-background-40964288.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-496954602-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teacher-background-wallpaper-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\top-view-business-office-desk-background-the-applying-for-a-job-form-and-pen-pencil-eyeglasses-tree-on-wooden-table-background-with-copy-space_1921-21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\top-view-accessories-business-office-desk-notebook-pen-paper-note-white-background-with-copy-space_1921-475.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview-write-effective-email-sales-pitch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1-1024x512 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\321856.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-671550892-1024x1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email-blasts-resize-border.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

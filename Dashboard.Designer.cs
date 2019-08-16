@@ -148,6 +148,7 @@
             this.staffBtn.Size = new System.Drawing.Size(145, 111);
             this.staffBtn.TabIndex = 42;
             this.staffBtn.UseVisualStyleBackColor = false;
+            this.staffBtn.Click += new System.EventHandler(this.staffBtn_Click);
             // 
             // oldBoysBtn
             // 
@@ -257,7 +258,6 @@
             this.Controls.Add(this.libraryBtn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";

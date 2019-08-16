@@ -21,5 +21,12 @@ namespace Login
             var newForm = new EventDashboard();
             newForm.Show();
         }
+
+        private void staffBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            sub_staff_dashboard sub_dash = new sub_staff_dashboard();
+            sub_dash.Show();
+        }
     }
 }

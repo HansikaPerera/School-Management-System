@@ -63,9 +63,194 @@ namespace Login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1 {
+            get {
+                object obj = ResourceManager.GetObject("1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _113259274_job_interview_and_recruiting_hr_agency_concept_staff_recruitment_human_resource_search_and_selection {
+            get {
+                object obj = ResourceManager.GetObject("113259274-job-interview-and-recruiting-hr-agency-concept-staff-recruitment-human-" +
+                        "resource-search-and-selection", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1338755_back_to_school_background_teacher_chalkboard_icons_free_png_psd_ai_and_vector_fomat_blackboard_with_teacher_png_526_368_preview {
+            get {
+                object obj = ResourceManager.GetObject("1338755-back-to-school-background-teacher-chalkboard-icons-free-png-psd-ai-and-ve" +
+                        "ctor-fomat-blackboard-with-teacher-png-526_368_preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1573969_about_us_guru_school_the_has_a_cute_teachers_clipart_march_teacher_teaching_english_png_2710_2338_preview {
+            get {
+                object obj = ResourceManager.GetObject("1573969-about-us-guru-school-the-has-a-cute-teachers-clipart-march-teacher-teachi" +
+                        "ng-english-png-2710_2338_preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2 {
+            get {
+                object obj = ResourceManager.GetObject("2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _30425873 {
+            get {
+                object obj = ResourceManager.GetObject("30425873", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _321856 {
+            get {
+                object obj = ResourceManager.GetObject("321856", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _39266748_career_design_concept_set_with_staff_recruitment_and_selection_flat_icons_isolated_vector_illustrati {
+            get {
+                object obj = ResourceManager.GetObject("39266748-career-design-concept-set-with-staff-recruitment-and-selection-flat-icon" +
+                        "s-isolated-vector-illustrati", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap asoka_new {
             get {
                 object obj = ResourceManager.GetObject("asoka new", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap asoka_new1 {
+            get {
+                object obj = ResourceManager.GetObject("asoka new1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap back_to_school_background_teacher_chalkboard_icons_6828309 {
+            get {
+                object obj = ResourceManager.GetObject("back_to_school_background_teacher_chalkboard_icons_6828309", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap business_people_talking_office_building_40876_657 {
+            get {
+                object obj = ResourceManager.GetObject("business-people-talking-office-building_40876-657", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ded50242578fc7ed06cbb1eb4ec746c3_28_collection_of_science_clipart_for_teachers_high_quality__736_824 {
+            get {
+                object obj = ResourceManager.GetObject("ded50242578fc7ed06cbb1eb4ec746c3_28-collection-of-science-clipart-for-teachers-hi" +
+                        "gh-quality-_736-824", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap elegant_white_background_with_shiny_lines_1017_17580 {
+            get {
+                object obj = ResourceManager.GetObject("elegant-white-background-with-shiny-lines_1017-17580", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap elegant_white_background_with_shiny_lines_1017_175801 {
+            get {
+                object obj = ResourceManager.GetObject("elegant-white-background-with-shiny-lines_1017-175801", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap elementary_teaching_theme_teacher_pupil_icons_cartoon_design_6831459 {
+            get {
+                object obj = ResourceManager.GetObject("elementary_teaching_theme_teacher_pupil_icons_cartoon_design_6831459", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap email {
+            get {
+                object obj = ResourceManager.GetObject("email", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap email_blasts_resize_border {
+            get {
+                object obj = ResourceManager.GetObject("email-blasts-resize-border", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap email_marketing_1051152514_5bc8b2d446e0fb0026c39b2a {
+            get {
+                object obj = ResourceManager.GetObject("email-marketing-1051152514-5bc8b2d446e0fb0026c39b2a", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +278,89 @@ namespace Login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap header_teacher_account_400x300 {
+            get {
+                object obj = ResourceManager.GetObject("header-teacher-account-400x300", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap header_teacher_account_400x3001 {
+            get {
+                object obj = ResourceManager.GetObject("header-teacher-account-400x3001", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap HG_Work_Portfolio_2017_MNPS_Background {
             get {
                 object obj = ResourceManager.GetObject("HG-Work-Portfolio-2017-MNPS-Background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap how_to_generate_maximum_engagement_with_your_email_marketing {
+            get {
+                object obj = ResourceManager.GetObject("how-to-generate-maximum-engagement-with-your-email-marketing", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap how_to_generate_maximum_engagement_with_your_email_marketing1 {
+            get {
+                object obj = ResourceManager.GetObject("how-to-generate-maximum-engagement-with-your-email-marketing1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images {
+            get {
+                object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images__1_ {
+            get {
+                object obj = ResourceManager.GetObject("images (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_496954602_612x612 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-496954602-612x612", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_671550892_1024x1024 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-671550892-1024x1024", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,6 +388,16 @@ namespace Login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap offer_salary_banner {
+            get {
+                object obj = ResourceManager.GetObject("offer-salary-banner", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap old_bys {
             get {
                 object obj = ResourceManager.GetObject("old bys", resourceCulture);
@@ -133,9 +408,39 @@ namespace Login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap personal_trainer_email_marketing {
+            get {
+                object obj = ResourceManager.GetObject("personal-trainer-email-marketing", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap preview_write_effective_email_sales_pitch {
+            get {
+                object obj = ResourceManager.GetObject("preview-write-effective-email-sales-pitch", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap result {
             get {
                 object obj = ResourceManager.GetObject("result", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap seamless_pattern_letter_sms_e_mail_symbols_texture_background_40964288 {
+            get {
+                object obj = ResourceManager.GetObject("seamless-pattern-letter-sms-e-mail-symbols-texture-background-40964288", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,6 +468,16 @@ namespace Login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap staff1 {
+            get {
+                object obj = ResourceManager.GetObject("staff1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap student {
             get {
                 object obj = ResourceManager.GetObject("student", resourceCulture);
@@ -176,6 +491,68 @@ namespace Login.Properties {
         internal static System.Drawing.Bitmap subject {
             get {
                 object obj = ResourceManager.GetObject("subject", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap teacher_background_wallpaper_2 {
+            get {
+                object obj = ResourceManager.GetObject("teacher-background-wallpaper-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap the_hills_shire_council_1 {
+            get {
+                object obj = ResourceManager.GetObject("the-hills-shire-council-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap top_view_accessories_business_office_desk_notebook_pen_paper_note_white_background_with_copy_space_1921_475 {
+            get {
+                object obj = ResourceManager.GetObject("top-view-accessories-business-office-desk-notebook-pen-paper-note-white-backgroun" +
+                        "d-with-copy-space_1921-475", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap top_view_business_office_desk_background_the_applying_for_a_job_form_and_pen_pencil_eyeglasses_tree_on_wooden_table_background_with_copy_space_1921_21 {
+            get {
+                object obj = ResourceManager.GetObject("top-view-business-office-desk-background-the-applying-for-a-job-form-and-pen-penc" +
+                        "il-eyeglasses-tree-on-wooden-table-background-with-copy-space_1921-21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_1_1024x512__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Untitled-1-1024x512 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Videos_for_Corporate_Presentations_770x360 {
+            get {
+                object obj = ResourceManager.GetObject("Videos_for_Corporate_Presentations-770x360", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
