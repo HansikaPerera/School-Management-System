@@ -22,5 +22,12 @@ namespace Login
             Dashboard d1 = new Dashboard();
             d1.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DashboardStaff d2 = new DashboardStaff();
+            d2.ShowDialog();
+        }
     }
 }

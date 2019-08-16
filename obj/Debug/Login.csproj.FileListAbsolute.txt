@@ -1,6 +1,5 @@
 C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\bin\Debug\Login.exe
 C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\bin\Debug\Login.pdb
-C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
 C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.Dashboard.resources
 C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.Form1.resources
 C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.Properties.Resources.resources
@@ -8,6 +7,7 @@ C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\
 C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.exe
 C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.pdb
 C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.EventDashboard.resources
+<<<<<<< HEAD
 F:\School Management Sysyem\School-Management-System\obj\Debug\Login.exe
 F:\School Management Sysyem\School-Management-System\obj\Debug\Login.pdb
 F:\School Management Sysyem\School-Management-System\bin\Debug\Login.exe
@@ -27,3 +27,14 @@ F:\School Management Sysyem\School-Management-System\obj\Debug\Login.Account_das
 F:\School Management Sysyem\School-Management-System\obj\Debug\Login.Non_academic_Account.resources
 F:\School Management Sysyem\School-Management-System\obj\Debug\Login.Non_aca_Email.resources
 F:\School Management Sysyem\School-Management-System\bin\Debug\itextsharp.dll
+=======
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.DashboardStaff.resources
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.Notification.resources
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.Event.resources
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.Societies.resources
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.StaffEventDashboard.resources
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.StaffEventsDisplay.resources
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.StaffNotificationDisplay.resources
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.StaffSocietyDisplay.resources
+>>>>>>> 54b5eb4042cd243cdddc14af8974c6304b9c98b8
