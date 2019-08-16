@@ -18,8 +18,10 @@ namespace Login
 
         private void eventBtn_Click(object sender, EventArgs e)
         {
-            var newForm = new StaffEventDashboard();
-            newForm.Show();
+           
+            this.Hide();
+            StaffEventDashboard sed1 = new StaffEventDashboard();
+            sed1.ShowDialog();
         }
     }
 }

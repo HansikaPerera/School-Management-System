@@ -15,5 +15,12 @@ namespace Login
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            StaffEventDashboard Sed1 = new StaffEventDashboard();
+            Sed1.ShowDialog();
+        }
     }
 }

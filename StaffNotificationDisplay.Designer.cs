@@ -39,6 +39,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -53,9 +54,10 @@
             this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(12)))), ((int)(((byte)(2)))));
             this.flowLayoutPanel2.Controls.Add(this.flowLayoutPanel3);
             this.flowLayoutPanel2.Controls.Add(this.button3);
+            this.flowLayoutPanel2.Controls.Add(this.button2);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 119);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(113, 403);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(113, 442);
             this.flowLayoutPanel2.TabIndex = 170;
             // 
             // flowLayoutPanel3
@@ -64,7 +66,7 @@
             this.flowLayoutPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(12)))), ((int)(((byte)(2)))));
             this.flowLayoutPanel3.Location = new System.Drawing.Point(3, 3);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(110, 123);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(110, 98);
             this.flowLayoutPanel3.TabIndex = 3;
             // 
             // button3
@@ -72,7 +74,7 @@
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
             this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Orange;
-            this.button3.Location = new System.Drawing.Point(3, 132);
+            this.button3.Location = new System.Drawing.Point(3, 107);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(110, 41);
             this.button3.TabIndex = 5;
@@ -116,7 +118,7 @@
             this.flowLayoutPanel1.Controls.Add(this.panel3);
             this.flowLayoutPanel1.Controls.Add(this.panel2);
             this.flowLayoutPanel1.ForeColor = System.Drawing.Color.White;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(72, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(710, 57);
             this.flowLayoutPanel1.TabIndex = 32;
@@ -127,7 +129,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.LightYellow;
             this.label9.Font = new System.Drawing.Font("Adobe Heiti Std R", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label9.Location = new System.Drawing.Point(390, 81);
+            this.label9.Location = new System.Drawing.Point(463, 81);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(147, 28);
             this.label9.TabIndex = 173;
@@ -141,7 +143,7 @@
             this.panel1.Controls.Add(this.flowLayoutPanel1);
             this.panel1.Location = new System.Drawing.Point(113, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(722, 57);
+            this.panel1.Size = new System.Drawing.Size(867, 57);
             this.panel1.TabIndex = 172;
             // 
             // pictureBox1
@@ -155,11 +157,24 @@
             this.pictureBox1.TabIndex = 171;
             this.pictureBox1.TabStop = false;
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
+            this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Orange;
+            this.button2.Location = new System.Drawing.Point(3, 154);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(110, 41);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Back";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // StaffNotificationDisplay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(835, 522);
+            this.ClientSize = new System.Drawing.Size(980, 561);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.pictureBox1);
@@ -168,6 +183,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "StaffNotificationDisplay";
             this.Text = "StaffNotificationDisplay";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.flowLayoutPanel2.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -191,5 +207,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button2;
     }
 }

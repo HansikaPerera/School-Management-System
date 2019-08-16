@@ -174,5 +174,12 @@ namespace Login
 
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            EventDashboard Ed1 = new EventDashboard();
+            Ed1.ShowDialog();
+        }
     }
 }

@@ -71,7 +71,7 @@
             this.SMbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SMbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SMbtn.ForeColor = System.Drawing.Color.SeaShell;
-            this.SMbtn.Location = new System.Drawing.Point(735, 389);
+            this.SMbtn.Location = new System.Drawing.Point(771, 419);
             this.SMbtn.Name = "SMbtn";
             this.SMbtn.Size = new System.Drawing.Size(190, 45);
             this.SMbtn.TabIndex = 106;
@@ -89,7 +89,7 @@
             this.NMbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NMbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.NMbtn.ForeColor = System.Drawing.Color.SeaShell;
-            this.NMbtn.Location = new System.Drawing.Point(458, 389);
+            this.NMbtn.Location = new System.Drawing.Point(453, 419);
             this.NMbtn.Name = "NMbtn";
             this.NMbtn.Size = new System.Drawing.Size(190, 45);
             this.NMbtn.TabIndex = 105;
@@ -108,7 +108,7 @@
             this.EMbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.EMbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EMbtn.ForeColor = System.Drawing.Color.SeaShell;
-            this.EMbtn.Location = new System.Drawing.Point(169, 389);
+            this.EMbtn.Location = new System.Drawing.Point(132, 419);
             this.EMbtn.Name = "EMbtn";
             this.EMbtn.Size = new System.Drawing.Size(190, 45);
             this.EMbtn.TabIndex = 104;
@@ -123,7 +123,7 @@
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(735, 193);
+            this.button3.Location = new System.Drawing.Point(771, 177);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(190, 190);
             this.button3.TabIndex = 100;
@@ -135,7 +135,7 @@
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button2.BackColor = System.Drawing.Color.SaddleBrown;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(458, 193);
+            this.button2.Location = new System.Drawing.Point(453, 177);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(190, 190);
             this.button2.TabIndex = 99;
@@ -147,7 +147,7 @@
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.BackColor = System.Drawing.Color.SaddleBrown;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(169, 193);
+            this.button1.Location = new System.Drawing.Point(132, 177);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(190, 190);
             this.button1.TabIndex = 98;
@@ -172,7 +172,7 @@
             this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox5.Image = global::Login.Properties.Resources.society;
-            this.pictureBox5.Location = new System.Drawing.Point(752, 210);
+            this.pictureBox5.Location = new System.Drawing.Point(788, 194);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(155, 155);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -185,7 +185,7 @@
             this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Image = global::Login.Properties.Resources.noti;
-            this.pictureBox4.Location = new System.Drawing.Point(476, 210);
+            this.pictureBox4.Location = new System.Drawing.Point(471, 194);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(155, 155);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -198,7 +198,7 @@
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Image = global::Login.Properties.Resources.event_icn;
-            this.pictureBox3.Location = new System.Drawing.Point(186, 210);
+            this.pictureBox3.Location = new System.Drawing.Point(149, 194);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(155, 155);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -353,6 +353,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "EventDashboard";
             this.Text = "EventDashboard";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

@@ -19,56 +19,72 @@ namespace Login
 
         private void EMbtn_Click(object sender, EventArgs e)
         {
-            var newForm = new StaffEventsDisplay();
-            newForm.Show();
+            this.Hide();
+            StaffEventsDisplay sed1 = new StaffEventsDisplay();
+            sed1.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var newForm = new StaffEventsDisplay();
-            newForm.Show();
+            this.Hide();
+            StaffEventsDisplay sed1 = new StaffEventsDisplay();
+            sed1.ShowDialog();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            var newForm = new StaffEventsDisplay();
-            newForm.Show();
+            this.Hide();
+            StaffEventsDisplay sed1 = new StaffEventsDisplay();
+            sed1.ShowDialog();
         }
 
         private void NMbtn_Click(object sender, EventArgs e)
         {
-            var newForm = new StaffNotificationDisplay();
-            newForm.Show();
+            this.Hide();
+            StaffNotificationDisplay snd1 = new StaffNotificationDisplay();
+            snd1.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var newForm = new StaffNotificationDisplay();
-            newForm.Show();
+            this.Hide();
+            StaffNotificationDisplay snd1 = new StaffNotificationDisplay();
+            snd1.ShowDialog();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            var newForm = new StaffNotificationDisplay();
-            newForm.Show();
+            this.Hide();
+            StaffNotificationDisplay snd1 = new StaffNotificationDisplay();
+            snd1.ShowDialog();
         }
 
         private void SMbtn_Click(object sender, EventArgs e)
         {
-            var newForm = new StaffSocietyDisplay();
-            newForm.Show();
+            this.Hide();
+            StaffSocietyDisplay ssd1 = new StaffSocietyDisplay();
+            ssd1.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            var newForm = new StaffSocietyDisplay();
-            newForm.Show();
+            this.Hide();
+            StaffSocietyDisplay ssd1 = new StaffSocietyDisplay();
+            ssd1.ShowDialog();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            var newForm = new StaffSocietyDisplay();
-            newForm.Show();
+            this.Hide();
+            StaffSocietyDisplay ssd1 = new StaffSocietyDisplay();
+            ssd1.ShowDialog();
+        }
+
+        private void dashboardBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DashboardStaff ds1 = new DashboardStaff();
+            ds1.ShowDialog();
         }
     }
 }

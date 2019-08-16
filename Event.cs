@@ -63,9 +63,7 @@ namespace Login
             DataTable dtbl = new DataTable();
             sqlDa.Fill(dtbl);
 
-            //if(dtbl.Rows.Count >= 1) {
-            //  MessageBox.Show("Date is not available");
-            //}
+            
             dataGridView1.DataSource = dtbl;
             // dataGridView1.Columns[0].Visible = false;
 
@@ -181,6 +179,13 @@ namespace Login
             {
                 sqlConn.Close();
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            EventDashboard Ed1 = new EventDashboard();
+            Ed1.ShowDialog();
         }
     }
 }

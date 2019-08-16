@@ -133,7 +133,7 @@
             this.subjectBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.subjectBtn.BackgroundImage = global::Login.Properties.Resources.subject;
             this.subjectBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.subjectBtn.Location = new System.Drawing.Point(131, 131);
+            this.subjectBtn.Location = new System.Drawing.Point(76, 131);
             this.subjectBtn.Name = "subjectBtn";
             this.subjectBtn.Size = new System.Drawing.Size(200, 145);
             this.subjectBtn.TabIndex = 40;
@@ -145,7 +145,7 @@
             this.staffBtn.BackColor = System.Drawing.Color.DarkRed;
             this.staffBtn.BackgroundImage = global::Login.Properties.Resources.staff;
             this.staffBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.staffBtn.Location = new System.Drawing.Point(451, 418);
+            this.staffBtn.Location = new System.Drawing.Point(451, 452);
             this.staffBtn.Name = "staffBtn";
             this.staffBtn.Size = new System.Drawing.Size(200, 145);
             this.staffBtn.TabIndex = 40;
@@ -159,7 +159,7 @@
             this.oldBoysBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.oldBoysBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.oldBoysBtn.ForeColor = System.Drawing.Color.Maroon;
-            this.oldBoysBtn.Location = new System.Drawing.Point(767, 347);
+            this.oldBoysBtn.Location = new System.Drawing.Point(815, 347);
             this.oldBoysBtn.Name = "oldBoysBtn";
             this.oldBoysBtn.Size = new System.Drawing.Size(200, 145);
             this.oldBoysBtn.TabIndex = 40;
@@ -189,7 +189,7 @@
             this.eventBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.eventBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eventBtn.ForeColor = System.Drawing.Color.Maroon;
-            this.eventBtn.Location = new System.Drawing.Point(131, 347);
+            this.eventBtn.Location = new System.Drawing.Point(76, 347);
             this.eventBtn.Name = "eventBtn";
             this.eventBtn.Size = new System.Drawing.Size(200, 145);
             this.eventBtn.TabIndex = 40;
@@ -203,7 +203,7 @@
             this.resultBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.resultBtn.BackgroundImage = global::Login.Properties.Resources.result;
             this.resultBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.resultBtn.Location = new System.Drawing.Point(767, 130);
+            this.resultBtn.Location = new System.Drawing.Point(815, 130);
             this.resultBtn.Name = "resultBtn";
             this.resultBtn.Size = new System.Drawing.Size(200, 145);
             this.resultBtn.TabIndex = 40;
@@ -217,7 +217,7 @@
             this.studentBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.studentBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.studentBtn.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.studentBtn.Location = new System.Drawing.Point(451, 59);
+            this.studentBtn.Location = new System.Drawing.Point(451, 20);
             this.studentBtn.Name = "studentBtn";
             this.studentBtn.Size = new System.Drawing.Size(200, 145);
             this.studentBtn.TabIndex = 40;
@@ -268,6 +268,7 @@
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.flowLayoutPanel2.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

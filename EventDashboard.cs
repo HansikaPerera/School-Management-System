@@ -18,62 +18,74 @@ namespace Login
 
         private void dashboardBtn_Click(object sender, EventArgs e)
         {
-            var newForm = new Dashboard();
-            newForm.Show();
+            
+            this.Hide();
+            Dashboard d1 = new Dashboard();
+            d1.ShowDialog();
         }
 
         private void NMbtn_Click(object sender, EventArgs e)
         {
-            var newForm = new Notification();
-            newForm.Show();
+            this.Hide();
+            Notification n1 = new Notification();
+            n1.ShowDialog();
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var newForm = new Notification();
-            newForm.Show();
+            this.Hide();
+            Notification n1 = new Notification();
+            n1.ShowDialog();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            var newForm = new Notification();
-            newForm.Show();
+            this.Hide();
+            Notification n1 = new Notification();
+            n1.ShowDialog();
         }
 
         private void EMbtn_Click(object sender, EventArgs e)
         {
-            var newForm = new Event();
-            newForm.Show();
+            this.Hide();
+            Event v1 = new Event();
+            v1.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var newForm = new Event();
-            newForm.Show();
+            this.Hide();
+            Event v1 = new Event();
+            v1.ShowDialog();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            var newForm = new Event();
-            newForm.Show();
+            this.Hide();
+            Event v1 = new Event();
+            v1.ShowDialog();
         }
 
         private void SMbtn_Click(object sender, EventArgs e)
         {
-            var newForm = new Societies();
-            newForm.Show();
+            this.Hide();
+            Societies s1 = new Societies();
+            s1.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            var newForm = new Societies();
-            newForm.Show();
+            this.Hide();
+            Societies s1 = new Societies();
+            s1.ShowDialog();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            var newForm = new Societies();
-            newForm.Show();
+            this.Hide();
+            Societies s1 = new Societies();
+            s1.ShowDialog();
         }
     }
 }
