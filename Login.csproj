@@ -44,11 +44,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CircularButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardStaff.Designer.cs">
+      <DependentUpon>DashboardStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Event.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Event.Designer.cs">
+      <DependentUpon>Event.cs</DependentUpon>
     </Compile>
     <Compile Include="EventDashboard.cs">
       <SubType>Form</SubType>
@@ -62,16 +77,61 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Notification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notification.Designer.cs">
+      <DependentUpon>Notification.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Societies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Societies.Designer.cs">
+      <DependentUpon>Societies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffEventDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffEventDashboard.Designer.cs">
+      <DependentUpon>StaffEventDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffEventsDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffEventsDisplay.Designer.cs">
+      <DependentUpon>StaffEventsDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffNotificationDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffNotificationDisplay.Designer.cs">
+      <DependentUpon>StaffNotificationDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffSocietyDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffSocietyDisplay.Designer.cs">
+      <DependentUpon>StaffSocietyDisplay.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardStaff.resx">
+      <DependentUpon>DashboardStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Event.resx">
+      <DependentUpon>Event.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EventDashboard.resx">
       <DependentUpon>EventDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notification.resx">
+      <DependentUpon>Notification.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -83,6 +143,21 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Societies.resx">
+      <DependentUpon>Societies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffEventDashboard.resx">
+      <DependentUpon>StaffEventDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffEventsDisplay.resx">
+      <DependentUpon>StaffEventsDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffNotificationDisplay.resx">
+      <DependentUpon>StaffNotificationDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffSocietyDisplay.resx">
+      <DependentUpon>StaffSocietyDisplay.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -131,6 +206,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\wcpsZm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\education-background-ppt-6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-database-administrator-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noti1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bb8baec8be1c5057ac42f20f09b415bb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
