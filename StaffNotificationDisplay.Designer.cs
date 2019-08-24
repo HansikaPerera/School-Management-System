@@ -32,6 +32,7 @@
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -39,7 +40,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -72,6 +72,8 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Orange;
             this.button3.Location = new System.Drawing.Point(3, 107);
@@ -80,6 +82,21 @@
             this.button3.TabIndex = 5;
             this.button3.Text = "Logout";
             this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Orange;
+            this.button2.Location = new System.Drawing.Point(3, 154);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(110, 41);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Back";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel3
             // 
@@ -156,19 +173,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(113, 119);
             this.pictureBox1.TabIndex = 171;
             this.pictureBox1.TabStop = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
-            this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Orange;
-            this.button2.Location = new System.Drawing.Point(3, 154);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(110, 41);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Back";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // StaffNotificationDisplay
             // 

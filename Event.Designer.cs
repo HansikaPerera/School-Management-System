@@ -32,6 +32,7 @@
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -60,7 +61,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtID = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -96,6 +96,8 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Orange;
             this.button3.Location = new System.Drawing.Point(3, 119);
@@ -104,6 +106,21 @@
             this.button3.TabIndex = 5;
             this.button3.Text = "Logout";
             this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Orange;
+            this.button2.Location = new System.Drawing.Point(3, 166);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(110, 41);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "Back";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel3
             // 
@@ -205,7 +222,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dateTimePicker1.Location = new System.Drawing.Point(231, 251);
+            this.dateTimePicker1.Location = new System.Drawing.Point(252, 251);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(222, 20);
             this.dateTimePicker1.TabIndex = 179;
@@ -217,7 +234,7 @@
             this.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReport.ForeColor = System.Drawing.Color.SeaShell;
-            this.btnReport.Location = new System.Drawing.Point(757, 528);
+            this.btnReport.Location = new System.Drawing.Point(709, 524);
             this.btnReport.Name = "btnReport";
             this.btnReport.Size = new System.Drawing.Size(90, 35);
             this.btnReport.TabIndex = 178;
@@ -231,7 +248,7 @@
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.SeaShell;
-            this.btnDelete.Location = new System.Drawing.Point(340, 528);
+            this.btnDelete.Location = new System.Drawing.Point(361, 524);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(90, 35);
             this.btnDelete.TabIndex = 177;
@@ -246,7 +263,7 @@
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.Color.SeaShell;
-            this.btnUpdate.Location = new System.Drawing.Point(217, 528);
+            this.btnUpdate.Location = new System.Drawing.Point(242, 524);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(90, 35);
             this.btnUpdate.TabIndex = 176;
@@ -261,7 +278,7 @@
             this.btnInsert.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnInsert.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInsert.ForeColor = System.Drawing.Color.SeaShell;
-            this.btnInsert.Location = new System.Drawing.Point(94, 528);
+            this.btnInsert.Location = new System.Drawing.Point(124, 524);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(90, 35);
             this.btnInsert.TabIndex = 175;
@@ -273,10 +290,10 @@
             // 
             this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(528, 160);
+            this.dataGridView1.Location = new System.Drawing.Point(521, 160);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(522, 305);
+            this.dataGridView1.Size = new System.Drawing.Size(457, 305);
             this.dataGridView1.TabIndex = 174;
             this.dataGridView1.DoubleClick += new System.EventHandler(this.dataGridView1_DoubleClick);
             // 
@@ -287,7 +304,7 @@
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSearch.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.ForeColor = System.Drawing.Color.Sienna;
-            this.btnSearch.Location = new System.Drawing.Point(878, 121);
+            this.btnSearch.Location = new System.Drawing.Point(830, 127);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(73, 23);
             this.btnSearch.TabIndex = 173;
@@ -300,7 +317,7 @@
             // 
             this.txtSearch.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtSearch.BackColor = System.Drawing.SystemColors.Menu;
-            this.txtSearch.Location = new System.Drawing.Point(621, 121);
+            this.txtSearch.Location = new System.Drawing.Point(573, 127);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(251, 20);
             this.txtSearch.TabIndex = 172;
@@ -312,7 +329,7 @@
             this.label7.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.label7.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label7.Location = new System.Drawing.Point(67, 370);
+            this.label7.Location = new System.Drawing.Point(117, 370);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(48, 16);
             this.label7.TabIndex = 171;
@@ -325,7 +342,7 @@
             this.label6.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.label6.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label6.Location = new System.Drawing.Point(67, 310);
+            this.label6.Location = new System.Drawing.Point(117, 310);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(40, 16);
             this.label6.TabIndex = 170;
@@ -338,7 +355,7 @@
             this.label5.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.label5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label5.Location = new System.Drawing.Point(67, 428);
+            this.label5.Location = new System.Drawing.Point(117, 428);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(123, 16);
             this.label5.TabIndex = 169;
@@ -347,7 +364,7 @@
             // txtTime
             // 
             this.txtTime.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtTime.Location = new System.Drawing.Point(231, 310);
+            this.txtTime.Location = new System.Drawing.Point(252, 310);
             this.txtTime.Name = "txtTime";
             this.txtTime.Size = new System.Drawing.Size(222, 20);
             this.txtTime.TabIndex = 168;
@@ -355,7 +372,7 @@
             // txtVenue
             // 
             this.txtVenue.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtVenue.Location = new System.Drawing.Point(231, 368);
+            this.txtVenue.Location = new System.Drawing.Point(252, 368);
             this.txtVenue.Name = "txtVenue";
             this.txtVenue.Size = new System.Drawing.Size(222, 20);
             this.txtVenue.TabIndex = 167;
@@ -363,7 +380,7 @@
             // txtTeacher
             // 
             this.txtTeacher.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtTeacher.Location = new System.Drawing.Point(231, 426);
+            this.txtTeacher.Location = new System.Drawing.Point(252, 426);
             this.txtTeacher.Name = "txtTeacher";
             this.txtTeacher.Size = new System.Drawing.Size(222, 20);
             this.txtTeacher.TabIndex = 166;
@@ -375,7 +392,7 @@
             this.label4.BackColor = System.Drawing.Color.Ivory;
             this.label4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label4.Location = new System.Drawing.Point(67, 255);
+            this.label4.Location = new System.Drawing.Point(117, 255);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(37, 16);
             this.label4.TabIndex = 165;
@@ -388,7 +405,7 @@
             this.label3.BackColor = System.Drawing.Color.Linen;
             this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label3.Location = new System.Drawing.Point(67, 194);
+            this.label3.Location = new System.Drawing.Point(117, 194);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(84, 16);
             this.label3.TabIndex = 164;
@@ -401,7 +418,7 @@
             this.label8.BackColor = System.Drawing.Color.Beige;
             this.label8.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label8.Location = new System.Drawing.Point(67, 136);
+            this.label8.Location = new System.Drawing.Point(117, 136);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(60, 16);
             this.label8.TabIndex = 163;
@@ -410,7 +427,7 @@
             // txtName
             // 
             this.txtName.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtName.Location = new System.Drawing.Point(231, 192);
+            this.txtName.Location = new System.Drawing.Point(252, 192);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(222, 20);
             this.txtName.TabIndex = 162;
@@ -418,23 +435,10 @@
             // txtID
             // 
             this.txtID.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtID.Location = new System.Drawing.Point(231, 134);
+            this.txtID.Location = new System.Drawing.Point(252, 134);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(222, 20);
             this.txtID.TabIndex = 161;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
-            this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Orange;
-            this.button2.Location = new System.Drawing.Point(3, 166);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(110, 41);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Back";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Event
             // 

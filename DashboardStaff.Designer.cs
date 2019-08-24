@@ -75,6 +75,8 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Orange;
             this.button3.Location = new System.Drawing.Point(3, 132);
@@ -143,7 +145,7 @@
             this.subjectBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.subjectBtn.BackgroundImage = global::Login.Properties.Resources.library;
             this.subjectBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.subjectBtn.Location = new System.Drawing.Point(84, 138);
+            this.subjectBtn.Location = new System.Drawing.Point(113, 138);
             this.subjectBtn.Name = "subjectBtn";
             this.subjectBtn.Size = new System.Drawing.Size(200, 145);
             this.subjectBtn.TabIndex = 46;
@@ -155,7 +157,7 @@
             this.staffBtn.BackColor = System.Drawing.Color.DarkRed;
             this.staffBtn.BackgroundImage = global::Login.Properties.Resources.staff;
             this.staffBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.staffBtn.Location = new System.Drawing.Point(448, 437);
+            this.staffBtn.Location = new System.Drawing.Point(448, 417);
             this.staffBtn.Name = "staffBtn";
             this.staffBtn.Size = new System.Drawing.Size(200, 145);
             this.staffBtn.TabIndex = 52;
@@ -169,7 +171,7 @@
             this.oldBoysBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.oldBoysBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.oldBoysBtn.ForeColor = System.Drawing.Color.Maroon;
-            this.oldBoysBtn.Location = new System.Drawing.Point(803, 336);
+            this.oldBoysBtn.Location = new System.Drawing.Point(781, 336);
             this.oldBoysBtn.Name = "oldBoysBtn";
             this.oldBoysBtn.Size = new System.Drawing.Size(200, 145);
             this.oldBoysBtn.TabIndex = 51;
@@ -184,7 +186,7 @@
             this.eventBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.eventBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eventBtn.ForeColor = System.Drawing.Color.Maroon;
-            this.eventBtn.Location = new System.Drawing.Point(84, 336);
+            this.eventBtn.Location = new System.Drawing.Point(113, 336);
             this.eventBtn.Name = "eventBtn";
             this.eventBtn.Size = new System.Drawing.Size(200, 145);
             this.eventBtn.TabIndex = 49;
@@ -198,7 +200,7 @@
             this.resultBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.resultBtn.BackgroundImage = global::Login.Properties.Resources.result;
             this.resultBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.resultBtn.Location = new System.Drawing.Point(803, 138);
+            this.resultBtn.Location = new System.Drawing.Point(781, 138);
             this.resultBtn.Name = "resultBtn";
             this.resultBtn.Size = new System.Drawing.Size(200, 145);
             this.resultBtn.TabIndex = 48;
@@ -212,7 +214,7 @@
             this.studentBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.studentBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.studentBtn.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.studentBtn.Location = new System.Drawing.Point(448, 35);
+            this.studentBtn.Location = new System.Drawing.Point(448, 58);
             this.studentBtn.Name = "studentBtn";
             this.studentBtn.Size = new System.Drawing.Size(200, 145);
             this.studentBtn.TabIndex = 47;

@@ -72,6 +72,8 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Orange;
             this.button4.Location = new System.Drawing.Point(3, 115);
@@ -84,6 +86,8 @@
             // dashboardBtn
             // 
             this.dashboardBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
+            this.dashboardBtn.FlatAppearance.BorderSize = 0;
+            this.dashboardBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dashboardBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dashboardBtn.ForeColor = System.Drawing.Color.Orange;
             this.dashboardBtn.Location = new System.Drawing.Point(3, 162);

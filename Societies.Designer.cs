@@ -32,6 +32,7 @@
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -62,7 +63,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -98,6 +98,8 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Orange;
             this.button3.Location = new System.Drawing.Point(3, 109);
@@ -106,6 +108,21 @@
             this.button3.TabIndex = 5;
             this.button3.Text = "Logout";
             this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Orange;
+            this.button2.Location = new System.Drawing.Point(3, 156);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(110, 41);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Back";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel3
             // 
@@ -211,7 +228,7 @@
             this.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReport.ForeColor = System.Drawing.Color.SeaShell;
-            this.btnReport.Location = new System.Drawing.Point(739, 525);
+            this.btnReport.Location = new System.Drawing.Point(716, 523);
             this.btnReport.Name = "btnReport";
             this.btnReport.Size = new System.Drawing.Size(90, 35);
             this.btnReport.TabIndex = 173;
@@ -222,9 +239,9 @@
             // 
             this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(538, 155);
+            this.dataGridView1.Location = new System.Drawing.Point(519, 155);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(501, 327);
+            this.dataGridView1.Size = new System.Drawing.Size(460, 327);
             this.dataGridView1.TabIndex = 169;
             this.dataGridView1.DoubleClick += new System.EventHandler(this.dataGridView1_DoubleClick);
             // 
@@ -235,7 +252,7 @@
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSearch.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.ForeColor = System.Drawing.Color.Sienna;
-            this.btnSearch.Location = new System.Drawing.Point(881, 122);
+            this.btnSearch.Location = new System.Drawing.Point(845, 122);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(69, 23);
             this.btnSearch.TabIndex = 168;
@@ -248,7 +265,7 @@
             // 
             this.txtSearch.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtSearch.BackColor = System.Drawing.SystemColors.Menu;
-            this.txtSearch.Location = new System.Drawing.Point(625, 124);
+            this.txtSearch.Location = new System.Drawing.Point(589, 124);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(251, 20);
             this.txtSearch.TabIndex = 167;
@@ -256,7 +273,7 @@
             // txtID
             // 
             this.txtID.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtID.Location = new System.Drawing.Point(228, 132);
+            this.txtID.Location = new System.Drawing.Point(253, 132);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(222, 20);
             this.txtID.TabIndex = 155;
@@ -266,7 +283,7 @@
             this.txtName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.txtName.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtName.Location = new System.Drawing.Point(228, 184);
+            this.txtName.Location = new System.Drawing.Point(253, 184);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(222, 20);
             this.txtName.TabIndex = 156;
@@ -276,7 +293,7 @@
             this.txtNumber.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.txtNumber.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtNumber.Location = new System.Drawing.Point(228, 239);
+            this.txtNumber.Location = new System.Drawing.Point(253, 239);
             this.txtNumber.Name = "txtNumber";
             this.txtNumber.Size = new System.Drawing.Size(222, 20);
             this.txtNumber.TabIndex = 157;
@@ -287,7 +304,7 @@
             this.txtTeacher.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtTeacher.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.txtTeacher.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtTeacher.Location = new System.Drawing.Point(228, 290);
+            this.txtTeacher.Location = new System.Drawing.Point(253, 290);
             this.txtTeacher.Name = "txtTeacher";
             this.txtTeacher.Size = new System.Drawing.Size(222, 20);
             this.txtTeacher.TabIndex = 163;
@@ -295,7 +312,7 @@
             // txtPresident
             // 
             this.txtPresident.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtPresident.Location = new System.Drawing.Point(228, 342);
+            this.txtPresident.Location = new System.Drawing.Point(253, 342);
             this.txtPresident.Name = "txtPresident";
             this.txtPresident.Size = new System.Drawing.Size(222, 20);
             this.txtPresident.TabIndex = 162;
@@ -303,7 +320,7 @@
             // txtSecretary
             // 
             this.txtSecretary.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtSecretary.Location = new System.Drawing.Point(228, 396);
+            this.txtSecretary.Location = new System.Drawing.Point(253, 396);
             this.txtSecretary.Name = "txtSecretary";
             this.txtSecretary.Size = new System.Drawing.Size(222, 20);
             this.txtSecretary.TabIndex = 161;
@@ -311,7 +328,7 @@
             // txtTreasurer
             // 
             this.txtTreasurer.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtTreasurer.Location = new System.Drawing.Point(228, 449);
+            this.txtTreasurer.Location = new System.Drawing.Point(253, 449);
             this.txtTreasurer.Name = "txtTreasurer";
             this.txtTreasurer.Size = new System.Drawing.Size(222, 20);
             this.txtTreasurer.TabIndex = 174;
@@ -323,7 +340,7 @@
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.SeaShell;
-            this.btnDelete.Location = new System.Drawing.Point(339, 525);
+            this.btnDelete.Location = new System.Drawing.Point(379, 523);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(90, 35);
             this.btnDelete.TabIndex = 172;
@@ -338,7 +355,7 @@
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.Color.SeaShell;
-            this.btnUpdate.Location = new System.Drawing.Point(212, 525);
+            this.btnUpdate.Location = new System.Drawing.Point(252, 523);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(90, 35);
             this.btnUpdate.TabIndex = 171;
@@ -353,7 +370,7 @@
             this.btnInsert.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnInsert.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInsert.ForeColor = System.Drawing.Color.SeaShell;
-            this.btnInsert.Location = new System.Drawing.Point(87, 525);
+            this.btnInsert.Location = new System.Drawing.Point(127, 523);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(90, 35);
             this.btnInsert.TabIndex = 170;
@@ -368,7 +385,7 @@
             this.label10.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label10.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label10.Location = new System.Drawing.Point(61, 454);
+            this.label10.Location = new System.Drawing.Point(118, 454);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(68, 16);
             this.label10.TabIndex = 175;
@@ -381,7 +398,7 @@
             this.label5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label5.Location = new System.Drawing.Point(61, 399);
+            this.label5.Location = new System.Drawing.Point(118, 399);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(69, 16);
             this.label5.TabIndex = 164;
@@ -394,7 +411,7 @@
             this.label7.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label7.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label7.Location = new System.Drawing.Point(61, 345);
+            this.label7.Location = new System.Drawing.Point(118, 345);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(68, 16);
             this.label7.TabIndex = 166;
@@ -407,7 +424,7 @@
             this.label6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label6.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label6.Location = new System.Drawing.Point(61, 290);
+            this.label6.Location = new System.Drawing.Point(118, 290);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(123, 16);
             this.label6.TabIndex = 165;
@@ -420,7 +437,7 @@
             this.label4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label4.Location = new System.Drawing.Point(61, 235);
+            this.label4.Location = new System.Drawing.Point(118, 235);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(100, 16);
             this.label4.TabIndex = 160;
@@ -433,7 +450,7 @@
             this.label3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label3.Location = new System.Drawing.Point(61, 182);
+            this.label3.Location = new System.Drawing.Point(118, 182);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(121, 16);
             this.label3.TabIndex = 159;
@@ -446,24 +463,11 @@
             this.label8.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label8.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label8.Location = new System.Drawing.Point(61, 130);
+            this.label8.Location = new System.Drawing.Point(118, 130);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(97, 16);
             this.label8.TabIndex = 158;
             this.label8.Text = "Association ID";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
-            this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Orange;
-            this.button2.Location = new System.Drawing.Point(3, 156);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(110, 41);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Back";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Societies
             // 
