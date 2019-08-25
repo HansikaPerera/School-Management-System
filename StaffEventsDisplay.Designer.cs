@@ -40,11 +40,15 @@
             this.label9 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Search = new System.Windows.Forms.Button();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel2
@@ -174,11 +178,44 @@
             this.pictureBox1.TabIndex = 162;
             this.pictureBox1.TabStop = false;
             // 
+            // Search
+            // 
+            this.Search.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Search.Location = new System.Drawing.Point(623, 126);
+            this.Search.Name = "Search";
+            this.Search.Size = new System.Drawing.Size(90, 31);
+            this.Search.TabIndex = 175;
+            this.Search.Text = "Search";
+            this.Search.UseVisualStyleBackColor = true;
+            this.Search.Click += new System.EventHandler(this.Search_Click);
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtSearch.Location = new System.Drawing.Point(358, 132);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(248, 20);
+            this.txtSearch.TabIndex = 174;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(208, 180);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(671, 303);
+            this.dataGridView1.TabIndex = 173;
+            // 
             // StaffEventsDisplay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(980, 561);
+            this.Controls.Add(this.Search);
+            this.Controls.Add(this.txtSearch);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.pictureBox1);
@@ -194,6 +231,7 @@
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -212,5 +250,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button Search;
+        private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

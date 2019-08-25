@@ -16,3 +16,4 @@ C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\
 C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.StaffEventsDisplay.resources
 C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.StaffNotificationDisplay.resources
 C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\obj\Debug\Login.StaffSocietyDisplay.resources
+C:\Users\Hansika Perera\Desktop\Event Management\School Management System\Login\Login\bin\Debug\itextsharp.dll

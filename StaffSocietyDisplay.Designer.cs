@@ -180,24 +180,29 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(185, 185);
+            this.dataGridView1.Location = new System.Drawing.Point(137, 185);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(707, 303);
+            this.dataGridView1.Size = new System.Drawing.Size(804, 364);
             this.dataGridView1.TabIndex = 170;
             // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(244, 138);
+            this.txtSearch.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtSearch.Location = new System.Drawing.Point(359, 137);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(248, 20);
             this.txtSearch.TabIndex = 171;
             // 
             // Search
             // 
-            this.Search.Location = new System.Drawing.Point(537, 134);
+            this.Search.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Search.Location = new System.Drawing.Point(624, 131);
             this.Search.Name = "Search";
-            this.Search.Size = new System.Drawing.Size(75, 23);
+            this.Search.Size = new System.Drawing.Size(90, 31);
             this.Search.TabIndex = 172;
             this.Search.Text = "Search";
             this.Search.UseVisualStyleBackColor = true;

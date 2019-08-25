@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+using System.IO;
+
 
 namespace Login
 {
@@ -179,6 +183,61 @@ namespace Login
                 sqlConn.Close();
             }
         }
+
+        public void exportDataGrid(DataGridView dgw, string fileName)
+        {
+            BaseFont bf = BaseFont.CreateFont(BaseFont.TIMES_ROMAN, BaseFont.CP1250, BaseFont.EMBEDDED);
+            PdfPTable pdfpt = new PdfPTable(dgw.Columns.Count);
+            pdfpt.DefaultCell.Padding = 3;
+            pdfpt.WidthPercentage = 100;
+            pdfpt.HorizontalAlignment = Element.ALIGN_LEFT;
+            pdfpt.DefaultCell.BorderWidth = 1;
+
+            iTextSharp.text.Font text = new iTextSharp.text.Font(bf, 10, iTextSharp.text.Font.NORMAL);
+
+            //Add Header
+            foreach(DataGridViewColumn column in dgw.Columns)
+            {
+                PdfPCell cell = new PdfPCell(new Phrase(column.HeaderText, text));
+                cell.BackgroundColor = new iTextSharp.text.Color(240, 240, 240);
+                pdfpt.AddCell(cell);
+            }
+
+
+            //Add datarow
+            foreach(DataGridViewRow row in dgw.Rows)
+            {
+                foreach(DataGridViewCell cell in row.Cells)
+                {
+                    pdfpt.AddCell(new Phrase(cell.Value.ToString(), text)); 
+                }
+            }
+
+            var savefiledialog = new SaveFileDialog();
+            savefiledialog.FileName = fileName;
+            savefiledialog.DefaultExt = ".pdf";
+
+            if(savefiledialog.ShowDialog() == DialogResult.OK)
+            {
+                using (FileStream stream = new FileStream(savefiledialog.FileName, FileMode.Create))
+                {
+                    Document pdfdoc = new Document(PageSize.A4, 10f, 10f, 10f, 0f);
+                    PdfWriter.GetInstance(pdfdoc, stream);
+                    pdfdoc.Open();
+                    pdfdoc.Add(pdfpt);
+                    pdfdoc.Close();
+                    stream.Close();
+                }
+            }
+        }
+
+        
+
+        private void btnReport_Click(object sender, EventArgs e)
+        {
+            exportDataGrid(dataGridView1, "Report");
+        }
+
 
         private void button2_Click(object sender, EventArgs e)
         {
