@@ -199,7 +199,7 @@ namespace Login
             foreach(DataGridViewColumn column in dgw.Columns)
             {
                 PdfPCell cell = new PdfPCell(new Phrase(column.HeaderText, text));
-                cell.BackgroundColor = new iTextSharp.text.Color(240, 240, 240);
+                cell.BackgroundColor = new iTextSharp.text.Color(191, 47, 47);
                 pdfpt.AddCell(cell);
             }
 
@@ -225,6 +225,11 @@ namespace Login
                     PdfWriter.GetInstance(pdfdoc, stream);
                     pdfdoc.Open();
                     pdfdoc.Add(pdfpt);
+
+                    DateTime now = DateTime.Now;
+                    Paragraph pEnd = new Paragraph("- System generated Societies Report on " + now + " - ");
+                    pdfdoc.Add(pEnd);
+
                     pdfdoc.Close();
                     stream.Close();
                 }
@@ -235,7 +240,7 @@ namespace Login
 
         private void btnReport_Click(object sender, EventArgs e)
         {
-            exportDataGrid(dataGridView1, "Report");
+            exportDataGrid(dataGridView1, "Societies Report");
         }
 
 

@@ -23,5 +23,12 @@ namespace Login
             StaffEventDashboard sed1 = new StaffEventDashboard();
             sed1.ShowDialog();
         }
+
+        private void staffBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Account_dashboard ad1 = new Account_dashboard();
+            ad1.ShowDialog();
+        }
     }
 }

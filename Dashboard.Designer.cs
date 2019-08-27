@@ -140,6 +140,7 @@
             this.subjectBtn.Size = new System.Drawing.Size(200, 145);
             this.subjectBtn.TabIndex = 40;
             this.subjectBtn.UseVisualStyleBackColor = true;
+            this.subjectBtn.Click += new System.EventHandler(this.subjectBtn_Click);
             // 
             // staffBtn
             // 
@@ -152,6 +153,7 @@
             this.staffBtn.Size = new System.Drawing.Size(200, 145);
             this.staffBtn.TabIndex = 40;
             this.staffBtn.UseVisualStyleBackColor = false;
+            this.staffBtn.Click += new System.EventHandler(this.staffBtn_Click);
             // 
             // oldBoysBtn
             // 
@@ -167,6 +169,7 @@
             this.oldBoysBtn.TabIndex = 40;
             this.oldBoysBtn.Text = "                                  ";
             this.oldBoysBtn.UseVisualStyleBackColor = false;
+            this.oldBoysBtn.Click += new System.EventHandler(this.oldBoysBtn_Click);
             // 
             // libraryBtn
             // 
@@ -182,6 +185,7 @@
             this.libraryBtn.TabIndex = 40;
             this.libraryBtn.Text = "                                           ";
             this.libraryBtn.UseVisualStyleBackColor = false;
+            this.libraryBtn.Click += new System.EventHandler(this.libraryBtn_Click);
             // 
             // eventBtn
             // 
@@ -225,6 +229,7 @@
             this.studentBtn.TabIndex = 40;
             this.studentBtn.Text = "      ";
             this.studentBtn.UseVisualStyleBackColor = false;
+            this.studentBtn.Click += new System.EventHandler(this.studentBtn_Click);
             // 
             // pictureBox1
             // 

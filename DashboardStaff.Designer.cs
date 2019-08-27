@@ -162,6 +162,7 @@
             this.staffBtn.Size = new System.Drawing.Size(200, 145);
             this.staffBtn.TabIndex = 52;
             this.staffBtn.UseVisualStyleBackColor = false;
+            this.staffBtn.Click += new System.EventHandler(this.staffBtn_Click);
             // 
             // oldBoysBtn
             // 
