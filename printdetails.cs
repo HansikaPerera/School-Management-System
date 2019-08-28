@@ -28,5 +28,12 @@ namespace Login
         {
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            StuDetails std1 = new StuDetails();
+            std1.ShowDialog();
+        }
     }
 }

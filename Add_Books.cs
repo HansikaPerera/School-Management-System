@@ -196,5 +196,12 @@ namespace Login
         {
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LibraryDashBoard ld1 = new LibraryDashBoard();
+            ld1.ShowDialog();
+        }
     }
 }

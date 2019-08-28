@@ -43,5 +43,26 @@ namespace Login
             Removed_Books rb1 = new Removed_Books();
             rb1.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LibraryDashBoard ld1 = new LibraryDashBoard();
+            ld1.ShowDialog();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Book_Issue bi1 = new Book_Issue();
+            bi1.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 f1 = new Form1();
+            f1.ShowDialog();
+        }
     }
 }

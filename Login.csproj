@@ -83,6 +83,12 @@
     <Compile Include="BooksDetails.Designer.cs">
       <DependentUpon>BooksDetails.cs</DependentUpon>
     </Compile>
+    <Compile Include="Book_Issue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book_Issue.Designer.cs">
+      <DependentUpon>Book_Issue.cs</DependentUpon>
+    </Compile>
     <Compile Include="CircularButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -116,23 +122,23 @@
     <Compile Include="EventDashboard.Designer.cs">
       <DependentUpon>EventDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormOldBoys1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormOldBoys1.Designer.cs">
       <DependentUpon>FormOldBoys1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormLibrary1.cs">
+    <Compile Include="Last.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormLibrary1.Designer.cs">
-      <DependentUpon>FormLibrary1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="LibraryBook_Issue.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LibraryBook_Issue.Designer.cs">
-      <DependentUpon>LibraryBook_Issue.cs</DependentUpon>
+    <Compile Include="Last.Designer.cs">
+      <DependentUpon>Last.cs</DependentUpon>
     </Compile>
     <Compile Include="LibraryDashBoard.cs">
       <SubType>Form</SubType>
@@ -292,6 +298,9 @@
     <EmbeddedResource Include="BooksDetails.resx">
       <DependentUpon>BooksDetails.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Book_Issue.resx">
+      <DependentUpon>Book_Issue.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -307,14 +316,14 @@
     <EmbeddedResource Include="EventDashboard.resx">
       <DependentUpon>EventDashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormOldBoys1.resx">
       <DependentUpon>FormOldBoys1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormLibrary1.resx">
-      <DependentUpon>FormLibrary1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="LibraryBook_Issue.resx">
-      <DependentUpon>LibraryBook_Issue.cs</DependentUpon>
+    <EmbeddedResource Include="Last.resx">
+      <DependentUpon>Last.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LibraryDashBoard.resx">
       <DependentUpon>LibraryDashBoard.cs</DependentUpon>
@@ -683,6 +692,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\de-blasio-education.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1Free_Online_Textbooks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bb8baec8be1c5057ac42f20f09b415bb1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General-Education-PowerPoint-PPT1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%291.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

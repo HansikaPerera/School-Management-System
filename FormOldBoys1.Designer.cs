@@ -255,7 +255,7 @@
             this.btnSendEmail.BackColor = System.Drawing.Color.Maroon;
             this.btnSendEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSendEmail.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btnSendEmail.Location = new System.Drawing.Point(386, 393);
+            this.btnSendEmail.Location = new System.Drawing.Point(614, 393);
             this.btnSendEmail.Name = "btnSendEmail";
             this.btnSendEmail.Size = new System.Drawing.Size(90, 35);
             this.btnSendEmail.TabIndex = 16;
@@ -268,7 +268,7 @@
             this.btnReset.BackColor = System.Drawing.Color.Maroon;
             this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnReset.Location = new System.Drawing.Point(269, 393);
+            this.btnReset.Location = new System.Drawing.Point(497, 393);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(90, 35);
             this.btnReset.TabIndex = 11;
@@ -435,7 +435,7 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Mobile Number";
             // 
-            // Form1
+            // FormOldBoys1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -446,8 +446,9 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "FormOldBoys1";
             this.Text = "Old Boys App";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel2.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);

@@ -173,11 +173,11 @@
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Adobe Heiti Std R", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label9.Font = new System.Drawing.Font("Adobe Heiti Std R", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(451, 87);
+            this.label9.Location = new System.Drawing.Point(436, 84);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(206, 24);
+            this.label9.Size = new System.Drawing.Size(257, 30);
             this.label9.TabIndex = 153;
             this.label9.Text = "Society Management";
             // 
@@ -197,7 +197,7 @@
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Image = global::Login.Properties.Resources.icons8_database_administrator_50;
-            this.pictureBox3.Location = new System.Drawing.Point(675, 70);
+            this.pictureBox3.Location = new System.Drawing.Point(696, 70);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(48, 50);
             this.pictureBox3.TabIndex = 154;
@@ -278,9 +278,9 @@
             // txtID
             // 
             this.txtID.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtID.Location = new System.Drawing.Point(156, 12);
+            this.txtID.Location = new System.Drawing.Point(175, 12);
             this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(200, 20);
+            this.txtID.Size = new System.Drawing.Size(172, 20);
             this.txtID.TabIndex = 155;
             // 
             // txtName
@@ -288,9 +288,9 @@
             this.txtName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.txtName.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtName.Location = new System.Drawing.Point(156, 64);
+            this.txtName.Location = new System.Drawing.Point(175, 64);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(200, 20);
+            this.txtName.Size = new System.Drawing.Size(172, 20);
             this.txtName.TabIndex = 156;
             // 
             // txtNumber
@@ -298,9 +298,9 @@
             this.txtNumber.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.txtNumber.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtNumber.Location = new System.Drawing.Point(156, 119);
+            this.txtNumber.Location = new System.Drawing.Point(175, 119);
             this.txtNumber.Name = "txtNumber";
-            this.txtNumber.Size = new System.Drawing.Size(200, 20);
+            this.txtNumber.Size = new System.Drawing.Size(172, 20);
             this.txtNumber.TabIndex = 157;
             this.txtNumber.Text = "         ";
             // 
@@ -309,33 +309,33 @@
             this.txtTeacher.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtTeacher.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.txtTeacher.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtTeacher.Location = new System.Drawing.Point(156, 170);
+            this.txtTeacher.Location = new System.Drawing.Point(175, 170);
             this.txtTeacher.Name = "txtTeacher";
-            this.txtTeacher.Size = new System.Drawing.Size(200, 20);
+            this.txtTeacher.Size = new System.Drawing.Size(172, 20);
             this.txtTeacher.TabIndex = 163;
             // 
             // txtPresident
             // 
             this.txtPresident.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtPresident.Location = new System.Drawing.Point(156, 222);
+            this.txtPresident.Location = new System.Drawing.Point(175, 222);
             this.txtPresident.Name = "txtPresident";
-            this.txtPresident.Size = new System.Drawing.Size(200, 20);
+            this.txtPresident.Size = new System.Drawing.Size(172, 20);
             this.txtPresident.TabIndex = 162;
             // 
             // txtSecretary
             // 
             this.txtSecretary.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtSecretary.Location = new System.Drawing.Point(156, 276);
+            this.txtSecretary.Location = new System.Drawing.Point(175, 276);
             this.txtSecretary.Name = "txtSecretary";
-            this.txtSecretary.Size = new System.Drawing.Size(200, 20);
+            this.txtSecretary.Size = new System.Drawing.Size(172, 20);
             this.txtSecretary.TabIndex = 161;
             // 
             // txtTreasurer
             // 
             this.txtTreasurer.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtTreasurer.Location = new System.Drawing.Point(156, 329);
+            this.txtTreasurer.Location = new System.Drawing.Point(175, 329);
             this.txtTreasurer.Name = "txtTreasurer";
-            this.txtTreasurer.Size = new System.Drawing.Size(200, 20);
+            this.txtTreasurer.Size = new System.Drawing.Size(172, 20);
             this.txtTreasurer.TabIndex = 174;
             // 
             // btnDelete

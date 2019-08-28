@@ -49,11 +49,6 @@ namespace Login
             display();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -75,6 +70,13 @@ namespace Login
             {
 
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LibraryDashBoard Ld1 = new LibraryDashBoard();
+            Ld1.ShowDialog();
         }
     }
 }

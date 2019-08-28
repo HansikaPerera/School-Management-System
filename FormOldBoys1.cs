@@ -26,11 +26,15 @@ namespace Login
         {
             try
             {
+                if (txtName.Text == "" || txtDOB.Text == "" || txtYear.Text == "" || txtAddress.Text == "" || txtMobileNumber.Text == "")
+                {
+                    MessageBox.Show("Please fill all feilds!");
+                }
 
-                if (sqlCon.State == ConnectionState.Closed)
+                else if (sqlCon.State == ConnectionState.Closed)
                     sqlCon.Open();
 
-                if (btnSave.Text == "Save")
+                else if (btnSave.Text == "Save")
                 {
                     SqlCommand sqlCmd = new SqlCommand("MemberAddOrEdit", sqlCon);
                     sqlCmd.CommandType = CommandType.StoredProcedure;

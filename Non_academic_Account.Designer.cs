@@ -72,7 +72,7 @@
             // 
             this.division2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.division2.FormattingEnabled = true;
-            this.division2.Location = new System.Drawing.Point(547, 203);
+            this.division2.Location = new System.Drawing.Point(534, 166);
             this.division2.Name = "division2";
             this.division2.Size = new System.Drawing.Size(121, 21);
             this.division2.TabIndex = 125;
@@ -83,7 +83,7 @@
             this.txtDivision1.AutoSize = true;
             this.txtDivision1.BackColor = System.Drawing.Color.Transparent;
             this.txtDivision1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDivision1.Location = new System.Drawing.Point(355, 206);
+            this.txtDivision1.Location = new System.Drawing.Point(322, 169);
             this.txtDivision1.Name = "txtDivision1";
             this.txtDivision1.Size = new System.Drawing.Size(65, 17);
             this.txtDivision1.TabIndex = 124;
@@ -156,7 +156,7 @@
             this.txtEdu1.BackColor = System.Drawing.Color.Transparent;
             this.txtEdu1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEdu1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtEdu1.Location = new System.Drawing.Point(355, 491);
+            this.txtEdu1.Location = new System.Drawing.Point(322, 414);
             this.txtEdu1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtEdu1.Name = "txtEdu1";
             this.txtEdu1.Size = new System.Drawing.Size(88, 17);
@@ -169,7 +169,7 @@
             this.YOR2.CustomFormat = "yyyy-MM-dd";
             this.YOR2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.YOR2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.YOR2.Location = new System.Drawing.Point(547, 434);
+            this.YOR2.Location = new System.Drawing.Point(534, 368);
             this.YOR2.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.YOR2.MaxDate = new System.DateTime(2020, 12, 12, 0, 0, 0, 0);
             this.YOR2.MinDate = new System.DateTime(1990, 1, 1, 0, 0, 0, 0);
@@ -183,7 +183,7 @@
             this.txtDOB2.CustomFormat = "yyyy-MM-dd";
             this.txtDOB2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDOB2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.txtDOB2.Location = new System.Drawing.Point(547, 243);
+            this.txtDOB2.Location = new System.Drawing.Point(534, 206);
             this.txtDOB2.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.txtDOB2.MaxDate = new System.DateTime(2005, 1, 1, 0, 0, 0, 0);
             this.txtDOB2.MinDate = new System.DateTime(1940, 1, 1, 0, 0, 0, 0);
@@ -195,11 +195,11 @@
             // exp2
             // 
             this.exp2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.exp2.Location = new System.Drawing.Point(547, 488);
+            this.exp2.Location = new System.Drawing.Point(534, 411);
             this.exp2.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.exp2.Multiline = true;
             this.exp2.Name = "exp2";
-            this.exp2.Size = new System.Drawing.Size(201, 99);
+            this.exp2.Size = new System.Drawing.Size(201, 85);
             this.exp2.TabIndex = 118;
             // 
             // radiobtnFemale2
@@ -208,7 +208,7 @@
             this.radiobtnFemale2.AutoSize = true;
             this.radiobtnFemale2.BackColor = System.Drawing.Color.Transparent;
             this.radiobtnFemale2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radiobtnFemale2.Location = new System.Drawing.Point(600, 293);
+            this.radiobtnFemale2.Location = new System.Drawing.Point(587, 249);
             this.radiobtnFemale2.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.radiobtnFemale2.Name = "radiobtnFemale2";
             this.radiobtnFemale2.Size = new System.Drawing.Size(68, 21);
@@ -223,7 +223,7 @@
             this.radiButtMale2.AutoSize = true;
             this.radiButtMale2.BackColor = System.Drawing.Color.Transparent;
             this.radiButtMale2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radiButtMale2.Location = new System.Drawing.Point(547, 293);
+            this.radiButtMale2.Location = new System.Drawing.Point(534, 249);
             this.radiButtMale2.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.radiButtMale2.Name = "radiButtMale2";
             this.radiButtMale2.Size = new System.Drawing.Size(56, 21);
@@ -239,7 +239,7 @@
             this.txtYerReg1.BackColor = System.Drawing.Color.Transparent;
             this.txtYerReg1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtYerReg1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtYerReg1.Location = new System.Drawing.Point(355, 440);
+            this.txtYerReg1.Location = new System.Drawing.Point(322, 374);
             this.txtYerReg1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtYerReg1.Name = "txtYerReg1";
             this.txtYerReg1.Size = new System.Drawing.Size(157, 17);
@@ -248,10 +248,11 @@
             // 
             // btnSave
             // 
+            this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(12)))), ((int)(((byte)(2)))));
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.ForeColor = System.Drawing.SystemColors.Info;
-            this.btnSave.Location = new System.Drawing.Point(413, 646);
+            this.btnSave.Location = new System.Drawing.Point(400, 519);
             this.btnSave.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(86, 38);
@@ -262,7 +263,7 @@
             // NIC2
             // 
             this.NIC2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.NIC2.Location = new System.Drawing.Point(547, 385);
+            this.NIC2.Location = new System.Drawing.Point(534, 329);
             this.NIC2.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.NIC2.Name = "NIC2";
             this.NIC2.Size = new System.Drawing.Size(201, 20);
@@ -275,7 +276,7 @@
             this.txtNic1.BackColor = System.Drawing.Color.Transparent;
             this.txtNic1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNic1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtNic1.Location = new System.Drawing.Point(355, 388);
+            this.txtNic1.Location = new System.Drawing.Point(322, 332);
             this.txtNic1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtNic1.Name = "txtNic1";
             this.txtNic1.Size = new System.Drawing.Size(94, 17);
@@ -289,7 +290,7 @@
             this.txtcont1.BackColor = System.Drawing.Color.Transparent;
             this.txtcont1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcont1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtcont1.Location = new System.Drawing.Point(355, 334);
+            this.txtcont1.Location = new System.Drawing.Point(322, 292);
             this.txtcont1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtcont1.Name = "txtcont1";
             this.txtcont1.Size = new System.Drawing.Size(124, 17);
@@ -303,7 +304,7 @@
             this.txtGender1.BackColor = System.Drawing.Color.Transparent;
             this.txtGender1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGender1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtGender1.Location = new System.Drawing.Point(355, 295);
+            this.txtGender1.Location = new System.Drawing.Point(322, 251);
             this.txtGender1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtGender1.Name = "txtGender1";
             this.txtGender1.Size = new System.Drawing.Size(62, 17);
@@ -317,7 +318,7 @@
             this.txtDOB1.BackColor = System.Drawing.Color.Transparent;
             this.txtDOB1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDOB1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtDOB1.Location = new System.Drawing.Point(355, 249);
+            this.txtDOB1.Location = new System.Drawing.Point(322, 212);
             this.txtDOB1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtDOB1.Name = "txtDOB1";
             this.txtDOB1.Size = new System.Drawing.Size(103, 17);
@@ -327,7 +328,7 @@
             // textName2
             // 
             this.textName2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textName2.Location = new System.Drawing.Point(547, 154);
+            this.textName2.Location = new System.Drawing.Point(534, 128);
             this.textName2.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.textName2.Name = "textName2";
             this.textName2.Size = new System.Drawing.Size(201, 20);
@@ -340,7 +341,7 @@
             this.txtName1.BackColor = System.Drawing.Color.Transparent;
             this.txtName1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtName1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtName1.Location = new System.Drawing.Point(355, 157);
+            this.txtName1.Location = new System.Drawing.Point(322, 131);
             this.txtName1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtName1.Name = "txtName1";
             this.txtName1.Size = new System.Drawing.Size(49, 17);
@@ -350,7 +351,7 @@
             // cont2
             // 
             this.cont2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.cont2.Location = new System.Drawing.Point(547, 331);
+            this.cont2.Location = new System.Drawing.Point(534, 289);
             this.cont2.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.cont2.Name = "cont2";
             this.cont2.Size = new System.Drawing.Size(201, 20);
@@ -358,10 +359,11 @@
             // 
             // btnUpdate
             // 
+            this.btnUpdate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(12)))), ((int)(((byte)(2)))));
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.btnUpdate.Location = new System.Drawing.Point(576, 646);
+            this.btnUpdate.Location = new System.Drawing.Point(563, 519);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(86, 38);
@@ -377,7 +379,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Adobe Heiti Std R", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(443, 78);
+            this.label3.Location = new System.Drawing.Point(457, 70);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(130, 26);

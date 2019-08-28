@@ -21,6 +21,12 @@ namespace Login
         {
             try
             {
+
+                if (textSub.Text == "" || textBody.Text == "")
+                {
+                    MessageBox.Show("Please fill all feilds!");
+                }
+
                 btnSend.Enabled = false;
 
                 this.Cursor = Cursors.WaitCursor;

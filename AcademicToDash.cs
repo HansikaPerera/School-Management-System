@@ -28,7 +28,11 @@ namespace Login
 
             try
             {
-                if (sqlCon.State == ConnectionState.Closed)
+                if (textBox1.Text == "" || textBox2.Text == "" || radiButtMale.Text == "" || textBox5.Text == "" || textBox6.Text == "" || txtboxx.Text == "")
+                {
+                    MessageBox.Show("Please fill all feilds!");
+                }
+                else if (sqlCon.State == ConnectionState.Closed)
                     sqlCon.Open();
 
                 SqlCommand sqlCmd = new SqlCommand("StaffAddorEdit", sqlCon);
