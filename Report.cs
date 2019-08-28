@@ -77,5 +77,17 @@ namespace Login
             SpesificReport sr = new SpesificReport();
             sr.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Subject s1 = new Subject();
+            s1.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

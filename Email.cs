@@ -44,5 +44,27 @@ namespace Login
                 MessageBox.Show("Error while sending message - " + ex.Message);
             }
         }
+
+        private void Email_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Subject s1 = new Subject();
+            s1.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -165,14 +165,16 @@ namespace Login
             diplay();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void label10_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label10_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Dashboard d = new Dashboard();
+            d.ShowDialog();
         }
     }
 }

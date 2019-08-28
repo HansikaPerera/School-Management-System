@@ -28,7 +28,12 @@ namespace Login
         {
             try
             {
-                if (sqlConn.State == ConnectionState.Closed)
+
+                if (txtName.Text == "" || txtNumber.Text == "" || txtTeacher.Text == "" || txtPresident.Text == "" || txtSecretary.Text == "" || txtTreasurer.Text == "" )
+                {
+                    MessageBox.Show("Please fill all feilds!");
+                }
+                else if (sqlConn.State == ConnectionState.Closed)
                     sqlConn.Open();
                 SqlCommand sqlCmd = new SqlCommand("AssociationInsert_Procedure", sqlConn);
                 sqlCmd.CommandType = CommandType.StoredProcedure;

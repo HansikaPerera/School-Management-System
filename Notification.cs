@@ -27,7 +27,11 @@ namespace Login
         {
             try
             {
-                if (sqlConn.State == ConnectionState.Closed)
+                if (txtTag.Text == "" || comboBox1.Text == "" || txtNoti.Text == "")
+                {
+                    MessageBox.Show("Please fill all feilds!");
+                }
+                else if (sqlConn.State == ConnectionState.Closed)
                     sqlConn.Open();
                 SqlCommand sqlCmd = new SqlCommand("NotificationInsert_Procedure", sqlConn);
                 sqlCmd.CommandType = CommandType.StoredProcedure;

@@ -136,11 +136,6 @@ namespace Login
 
         }
 
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
         //search
         private void textBox9_TextChanged(object sender, EventArgs e)
         {

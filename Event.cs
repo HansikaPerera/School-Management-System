@@ -26,8 +26,14 @@ namespace Login
         {
             try
             {
-                if (sqlConn.State == ConnectionState.Closed)
+                if (txtName.Text == "" || txtTime.Text == "" || txtVenue.Text == "" || txtTeacher.Text == "")
+                {
+                    MessageBox.Show("Please fill all feilds!");
+                }
+                else if (sqlConn.State == ConnectionState.Closed)
+                {
                     sqlConn.Open();
+                }
                 SqlCommand sqlCmd = new SqlCommand("EventInsert_Procedure", sqlConn);
                 sqlCmd.CommandType = CommandType.StoredProcedure;
                 sqlCmd.Parameters.AddWithValue("@mode", "Insert");
@@ -249,6 +255,16 @@ namespace Login
             this.Hide();
             EventDashboard Ed1 = new EventDashboard();
             Ed1.ShowDialog();
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
