@@ -57,6 +57,13 @@ namespace Login
             Non_academic_Account non_aca_acc = new Non_academic_Account();
             non_aca_acc.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            StaffLog1 Ed1 = new StaffLog1();
+            Ed1.ShowDialog();
+        }
     }
 }
     

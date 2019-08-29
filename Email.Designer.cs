@@ -53,6 +53,7 @@
             // 
             // panel1
             // 
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.btnSend);
             this.panel1.Controls.Add(this.des);
@@ -61,7 +62,7 @@
             this.panel1.Controls.Add(this.Decsription);
             this.panel1.Controls.Add(this.Subject);
             this.panel1.Controls.Add(this.EmailLabel);
-            this.panel1.Location = new System.Drawing.Point(315, 210);
+            this.panel1.Location = new System.Drawing.Point(367, 155);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(413, 319);
             this.panel1.TabIndex = 1;
@@ -149,11 +150,13 @@
             // 
             // panel3
             // 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BackColor = System.Drawing.Color.Maroon;
             this.panel3.Controls.Add(this.label2);
             this.panel3.Location = new System.Drawing.Point(112, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(867, 57);
+            this.panel3.Size = new System.Drawing.Size(871, 57);
             this.panel3.TabIndex = 23;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
@@ -163,7 +166,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Bookman Old Style", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(191)))), ((int)(((byte)(48)))));
-            this.label2.Location = new System.Drawing.Point(200, 16);
+            this.label2.Location = new System.Drawing.Point(202, 16);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(466, 24);
             this.label2.TabIndex = 1;
@@ -213,7 +216,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Login.Properties.Resources.images__2_;
+            this.BackgroundImage = global::Login.Properties.Resources.General_Education_PowerPoint_PPT;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 565);
             this.Controls.Add(this.panel4);

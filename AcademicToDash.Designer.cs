@@ -32,7 +32,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.backASM = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.txtboxx = new System.Windows.Forms.TextBox();
             this.txtEdu = new System.Windows.Forms.Label();
             this.butReport = new System.Windows.Forms.Button();
@@ -122,22 +121,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Logout";
             this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Orange;
-            this.button1.Location = new System.Drawing.Point(2, 219);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 44);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Dashboard";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // txtboxx
             // 
@@ -170,7 +154,7 @@
             this.butReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butReport.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.butReport.Location = new System.Drawing.Point(746, 520);
+            this.butReport.Location = new System.Drawing.Point(746, 530);
             this.butReport.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.butReport.Name = "butReport";
             this.butReport.Size = new System.Drawing.Size(90, 35);
@@ -223,7 +207,7 @@
             this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dateTimePicker1.CustomFormat = "yyyy-MM-dd";
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(356, 195);
+            this.dateTimePicker1.Location = new System.Drawing.Point(356, 202);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.dateTimePicker1.MaxDate = new System.DateTime(2005, 1, 1, 0, 0, 0, 0);
             this.dateTimePicker1.MinDate = new System.DateTime(1940, 1, 1, 0, 0, 0, 0);
@@ -237,7 +221,7 @@
             this.radiobtnFemale.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radiobtnFemale.AutoSize = true;
             this.radiobtnFemale.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radiobtnFemale.Location = new System.Drawing.Point(501, 231);
+            this.radiobtnFemale.Location = new System.Drawing.Point(501, 243);
             this.radiobtnFemale.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.radiobtnFemale.Name = "radiobtnFemale";
             this.radiobtnFemale.Size = new System.Drawing.Size(68, 21);
@@ -251,7 +235,7 @@
             this.radiButtMale.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radiButtMale.AutoSize = true;
             this.radiButtMale.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radiButtMale.Location = new System.Drawing.Point(356, 231);
+            this.radiButtMale.Location = new System.Drawing.Point(356, 243);
             this.radiButtMale.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.radiButtMale.Name = "radiButtMale";
             this.radiButtMale.Size = new System.Drawing.Size(56, 21);
@@ -281,7 +265,7 @@
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.ForeColor = System.Drawing.SystemColors.Info;
-            this.btnSave.Location = new System.Drawing.Point(180, 519);
+            this.btnSave.Location = new System.Drawing.Point(180, 529);
             this.btnSave.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(90, 35);
@@ -309,7 +293,7 @@
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btnDelete.Location = new System.Drawing.Point(424, 519);
+            this.btnDelete.Location = new System.Drawing.Point(424, 529);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(90, 35);
@@ -325,7 +309,7 @@
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.btnUpdate.Location = new System.Drawing.Point(305, 519);
+            this.btnUpdate.Location = new System.Drawing.Point(305, 529);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(90, 35);
@@ -337,7 +321,7 @@
             // textBox6
             // 
             this.textBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox6.Location = new System.Drawing.Point(356, 316);
+            this.textBox6.Location = new System.Drawing.Point(356, 321);
             this.textBox6.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(201, 20);
@@ -350,7 +334,7 @@
             this.txtNic.BackColor = System.Drawing.Color.Transparent;
             this.txtNic.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNic.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtNic.Location = new System.Drawing.Point(140, 316);
+            this.txtNic.Location = new System.Drawing.Point(140, 321);
             this.txtNic.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtNic.Name = "txtNic";
             this.txtNic.Size = new System.Drawing.Size(94, 17);
@@ -360,7 +344,7 @@
             // textBox5
             // 
             this.textBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox5.Location = new System.Drawing.Point(356, 276);
+            this.textBox5.Location = new System.Drawing.Point(356, 280);
             this.textBox5.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(201, 20);
@@ -373,7 +357,7 @@
             this.txtcont.BackColor = System.Drawing.Color.Transparent;
             this.txtcont.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcont.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtcont.Location = new System.Drawing.Point(140, 276);
+            this.txtcont.Location = new System.Drawing.Point(140, 280);
             this.txtcont.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtcont.Name = "txtcont";
             this.txtcont.Size = new System.Drawing.Size(124, 17);
@@ -387,7 +371,7 @@
             this.txtSex.BackColor = System.Drawing.Color.Transparent;
             this.txtSex.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSex.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtSex.Location = new System.Drawing.Point(140, 231);
+            this.txtSex.Location = new System.Drawing.Point(140, 243);
             this.txtSex.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtSex.Name = "txtSex";
             this.txtSex.Size = new System.Drawing.Size(34, 17);
@@ -401,7 +385,7 @@
             this.txtDOB.BackColor = System.Drawing.Color.Transparent;
             this.txtDOB.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDOB.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtDOB.Location = new System.Drawing.Point(140, 195);
+            this.txtDOB.Location = new System.Drawing.Point(140, 202);
             this.txtDOB.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtDOB.Name = "txtDOB";
             this.txtDOB.Size = new System.Drawing.Size(103, 17);
@@ -411,7 +395,7 @@
             // textBox2
             // 
             this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox2.Location = new System.Drawing.Point(356, 162);
+            this.textBox2.Location = new System.Drawing.Point(356, 168);
             this.textBox2.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(201, 20);
@@ -424,7 +408,7 @@
             this.txtLstName.BackColor = System.Drawing.Color.Transparent;
             this.txtLstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLstName.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtLstName.Location = new System.Drawing.Point(140, 162);
+            this.txtLstName.Location = new System.Drawing.Point(142, 168);
             this.txtLstName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtLstName.Name = "txtLstName";
             this.txtLstName.Size = new System.Drawing.Size(85, 17);
@@ -485,7 +469,6 @@
             this.flowLayoutPanel2.Controls.Add(this.flowLayoutPanel3);
             this.flowLayoutPanel2.Controls.Add(this.button2);
             this.flowLayoutPanel2.Controls.Add(this.backASM);
-            this.flowLayoutPanel2.Controls.Add(this.button1);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(2, 121);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(113, 442);
@@ -568,7 +551,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Login.Properties.Resources.elegant_white_background_with_shiny_lines_1017_175801;
+            this.BackgroundImage = global::Login.Properties.Resources.emmaus_podcast_plain_web1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 565);
             this.Controls.Add(this.flowLayoutPanel2);
@@ -625,7 +608,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox txtboxx;
         private System.Windows.Forms.Label txtEdu;

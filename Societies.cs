@@ -255,5 +255,12 @@ namespace Login
             EventDashboard Ed1 = new EventDashboard();
             Ed1.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainLog1 Ed1 = new MainLog1();
+            Ed1.ShowDialog();
+        }
     }
 }

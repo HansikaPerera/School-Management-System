@@ -50,7 +50,11 @@ namespace Login
                 textBox4.Text = "";
                 textBox5.Text = "";
                 textBox6.Text = "";
+                display();
+               
                 MessageBox.Show("Books added succesfully");
+
+                
             }
         }
         public void display()
@@ -202,6 +206,13 @@ namespace Login
             this.Hide();
             LibraryDashBoard ld1 = new LibraryDashBoard();
             ld1.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainLog1 Ed1 = new MainLog1();
+            Ed1.ShowDialog();
         }
     }
 }

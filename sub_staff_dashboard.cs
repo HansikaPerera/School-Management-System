@@ -48,5 +48,12 @@ namespace Login
             Dashboard db = new Dashboard();
             db.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            StaffLog1 Ed1 = new StaffLog1();
+            Ed1.ShowDialog();
+        }
     }
 }

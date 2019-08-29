@@ -59,5 +59,19 @@ namespace Login
             MemberDetails mbrD = new MemberDetails();
             mbrD.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Dashboard ld1 = new Dashboard();
+            ld1.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainLog1 Ed1 = new MainLog1();
+            Ed1.ShowDialog();
+        }
     }
 }

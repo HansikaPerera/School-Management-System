@@ -32,7 +32,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.backAA = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.txtboxx = new System.Windows.Forms.TextBox();
             this.txtEdu = new System.Windows.Forms.Label();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
@@ -40,7 +39,6 @@
             this.radiobtnFemale = new System.Windows.Forms.RadioButton();
             this.radiButtMale = new System.Windows.Forms.RadioButton();
             this.txtYerReg = new System.Windows.Forms.Label();
-            this.btnSave = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.txtNic = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -112,22 +110,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Logout";
             this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(71)))), ((int)(((byte)(57)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Orange;
-            this.button1.Location = new System.Drawing.Point(2, 217);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 44);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Dashboard";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // txtboxx
             // 
@@ -226,20 +209,6 @@
             this.txtYerReg.TabIndex = 108;
             this.txtYerReg.Text = "Year Of Registration";
             // 
-            // btnSave
-            // 
-            this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(12)))), ((int)(((byte)(2)))));
-            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.ForeColor = System.Drawing.SystemColors.Info;
-            this.btnSave.Location = new System.Drawing.Point(423, 521);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(86, 38);
-            this.btnSave.TabIndex = 104;
-            this.btnSave.Text = "Save";
-            this.btnSave.UseVisualStyleBackColor = false;
-            // 
             // textBox6
             // 
             this.textBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -278,7 +247,7 @@
             this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(12)))), ((int)(((byte)(2)))));
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btnUpdate.Location = new System.Drawing.Point(577, 521);
+            this.btnUpdate.Location = new System.Drawing.Point(491, 521);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(86, 38);
@@ -383,7 +352,6 @@
             this.flowLayoutPanel2.Controls.Add(this.flowLayoutPanel3);
             this.flowLayoutPanel2.Controls.Add(this.button2);
             this.flowLayoutPanel2.Controls.Add(this.backAA);
-            this.flowLayoutPanel2.Controls.Add(this.button1);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(2, 121);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(113, 442);
@@ -480,7 +448,6 @@
             this.Controls.Add(this.radiobtnFemale);
             this.Controls.Add(this.radiButtMale);
             this.Controls.Add(this.txtYerReg);
-            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.txtNic);
             this.Controls.Add(this.textBox5);
@@ -511,7 +478,6 @@
         #endregion
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txtboxx;
         private System.Windows.Forms.Label txtEdu;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
@@ -519,7 +485,6 @@
         private System.Windows.Forms.RadioButton radiobtnFemale;
         private System.Windows.Forms.RadioButton radiButtMale;
         private System.Windows.Forms.Label txtYerReg;
-        private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label txtNic;
         private System.Windows.Forms.TextBox textBox5;

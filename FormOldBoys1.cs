@@ -26,15 +26,15 @@ namespace Login
         {
             try
             {
-                if (txtName.Text == "" || txtDOB.Text == "" || txtYear.Text == "" || txtAddress.Text == "" || txtMobileNumber.Text == "")
+               /* if (txtName.Text == "" || txtDOB.Text == "" || txtYear.Text == "" || txtAddress.Text == "" || txtMobileNumber.Text == "")
                 {
                     MessageBox.Show("Please fill all feilds!");
-                }
+                }*/
 
-                else if (sqlCon.State == ConnectionState.Closed)
+                if (sqlCon.State == ConnectionState.Closed)
                     sqlCon.Open();
 
-                else if (btnSave.Text == "Save")
+                if (btnSave.Text == "Save")
                 {
                     SqlCommand sqlCmd = new SqlCommand("MemberAddOrEdit", sqlCon);
                     sqlCmd.CommandType = CommandType.StoredProcedure;
@@ -190,6 +190,13 @@ namespace Login
             this.Hide();
             Dashboard d1 = new Dashboard();
             d1.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainLog1 Ed1 = new MainLog1();
+            Ed1.ShowDialog();
         }
     }
 }

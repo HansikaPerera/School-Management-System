@@ -58,6 +58,11 @@ namespace Login
             s1.ShowDialog();
         }
 
-       
+        private void resultBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ResultsManagement rm1 = new ResultsManagement();
+            rm1.ShowDialog();
+        }
     }
 }

@@ -110,6 +110,12 @@
     <Compile Include="Email.Designer.cs">
       <DependentUpon>Email.cs</DependentUpon>
     </Compile>
+    <Compile Include="EmailSendingInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmailSendingInterface.Designer.cs">
+      <DependentUpon>EmailSendingInterface.cs</DependentUpon>
+    </Compile>
     <Compile Include="Event.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,6 +163,24 @@
     </Compile>
     <Compile Include="log.Designer.cs">
       <DependentUpon>log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainDashBoard1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainDashBoard1.Designer.cs">
+      <DependentUpon>MainDashBoard1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainlog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainlog.Designer.cs">
+      <DependentUpon>Mainlog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainLog1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainLog1.Designer.cs">
+      <DependentUpon>MainLog1.cs</DependentUpon>
     </Compile>
     <Compile Include="MemberDetails.cs">
       <SubType>Form</SubType>
@@ -214,6 +238,12 @@
     <Compile Include="Report.Designer.cs">
       <DependentUpon>Report.cs</DependentUpon>
     </Compile>
+    <Compile Include="ResultsManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultsManagement.Designer.cs">
+      <DependentUpon>ResultsManagement.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sendemail.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -232,6 +262,12 @@
     <Compile Include="SpesificReport.Designer.cs">
       <DependentUpon>SpesificReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="Staff Reg1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff Reg1.Designer.cs">
+      <DependentUpon>Staff Reg1.cs</DependentUpon>
+    </Compile>
     <Compile Include="StaffEventDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -243,6 +279,12 @@
     </Compile>
     <Compile Include="StaffEventsDisplay.Designer.cs">
       <DependentUpon>StaffEventsDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffLog1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffLog1.Designer.cs">
+      <DependentUpon>StaffLog1.cs</DependentUpon>
     </Compile>
     <Compile Include="StaffNotificationDisplay.cs">
       <SubType>Form</SubType>
@@ -310,6 +352,9 @@
     <EmbeddedResource Include="Email.resx">
       <DependentUpon>Email.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EmailSendingInterface.resx">
+      <DependentUpon>EmailSendingInterface.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Event.resx">
       <DependentUpon>Event.cs</DependentUpon>
     </EmbeddedResource>
@@ -333,6 +378,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="log.resx">
       <DependentUpon>log.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainDashBoard1.resx">
+      <DependentUpon>MainDashBoard1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainlog.resx">
+      <DependentUpon>Mainlog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainLog1.resx">
+      <DependentUpon>MainLog1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MemberDetails.resx">
       <DependentUpon>MemberDetails.cs</DependentUpon>
@@ -371,6 +425,9 @@
     <EmbeddedResource Include="Report.resx">
       <DependentUpon>Report.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ResultsManagement.resx">
+      <DependentUpon>ResultsManagement.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sendemail.resx">
       <DependentUpon>Sendemail.cs</DependentUpon>
     </EmbeddedResource>
@@ -380,11 +437,17 @@
     <EmbeddedResource Include="SpesificReport.resx">
       <DependentUpon>SpesificReport.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Staff Reg1.resx">
+      <DependentUpon>Staff Reg1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StaffEventDashboard.resx">
       <DependentUpon>StaffEventDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StaffEventsDisplay.resx">
       <DependentUpon>StaffEventsDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffLog1.resx">
+      <DependentUpon>StaffLog1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StaffNotificationDisplay.resx">
       <DependentUpon>StaffNotificationDisplay.cs</DependentUpon>
@@ -713,6 +776,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\images %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resultmanagementicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GettyImages538811846Tiny.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ea47d2e20a181bc287ee95ea64a22c8b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-ppt-kuning.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asoka new2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elegant_Background-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elegant_Background-31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-group-961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-admin-settings-male-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emmaus-podcast-plain_web1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General-Education-PowerPoint-PPT2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

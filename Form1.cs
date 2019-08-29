@@ -249,6 +249,9 @@ namespace Login
                     }
 
                 }
+                this.Hide();
+                Last d1 = new Last();
+                d1.ShowDialog();
             }
         }
 
@@ -257,6 +260,13 @@ namespace Login
             this.Hide();
             BooksDetails Bd1 = new BooksDetails();
             Bd1.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainLog1 Ed1 = new MainLog1();
+            Ed1.ShowDialog();
         }
     }
     }

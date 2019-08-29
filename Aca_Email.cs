@@ -60,5 +60,12 @@ namespace Login
             Academic_staff_Account aca_acc_new = new Academic_staff_Account();
             aca_acc_new.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            StaffLog1 Ed1 = new StaffLog1();
+            Ed1.ShowDialog();
+        }
     }
 }

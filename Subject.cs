@@ -72,7 +72,7 @@ namespace Login
                 con.Open();
                 SqlCommand cmd = con.CreateCommand();
                 cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "update SubjectsDetails set sName = '" + textBox2.Text + "',teacherIncharge = '" + textBox3.Text + "',email = '" + textBox4.Text + "',noOfTeachers ='" + textBox5.Text + "' ,forGrade= '" + textBox6.Text + "' where sCode = '" + textBox1.Text + "' ";
+                cmd.CommandText = "update Subject set sName = '" + textBox2.Text + "',teacherIncharge = '" + textBox3.Text + "',email = '" + textBox4.Text + "',noOfTeachers ='" + textBox5.Text + "' ,forGrade= '" + textBox6.Text + "' where sCode = '" + textBox1.Text + "' ";
                 cmd.ExecuteNonQuery();
                 con.Close();
                 textBox1.Text = "";
@@ -175,6 +175,13 @@ namespace Login
             this.Hide();
             Dashboard d = new Dashboard();
             d.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainLog1 Ed1 = new MainLog1();
+            Ed1.ShowDialog();
         }
     }
 }

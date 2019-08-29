@@ -203,5 +203,12 @@ private void button1_Click(object sender, EventArgs e)
             BooksDetails Bd1 = new BooksDetails();
             Bd1.ShowDialog();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainLog1 Ed1 = new MainLog1();
+            Ed1.ShowDialog();
+        }
     }
 }

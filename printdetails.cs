@@ -35,5 +35,12 @@ namespace Login
             StuDetails std1 = new StuDetails();
             std1.ShowDialog();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainLog1 Ed1 = new MainLog1();
+            Ed1.ShowDialog();
+        }
     }
 }

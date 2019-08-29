@@ -80,7 +80,7 @@ namespace Login
             DataTable dtbl = new DataTable();
             sqlDa.Fill(dtbl);
             dataGridView1.DataSource = dtbl;
-            dataGridView1.Columns[0].Visible = false;
+           // dataGridView1.Columns[0].Visible = false;
             sqlCon.Close();
         }
 
@@ -237,6 +237,13 @@ namespace Login
                 sqlCon.Close();
             }
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainLog1 db = new MainLog1();
+            db.Show();
         }
     }
 }

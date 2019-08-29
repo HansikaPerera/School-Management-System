@@ -86,5 +86,12 @@ namespace Login
             DashboardStaff ds1 = new DashboardStaff();
             ds1.ShowDialog();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            StaffLog1 Ed1 = new StaffLog1();
+            Ed1.ShowDialog();
+        }
     }
 }

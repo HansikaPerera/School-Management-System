@@ -92,7 +92,7 @@ namespace Login
                 SqlCommand cmd = con.CreateCommand();
                 cmd.CommandType = CommandType.Text;
 
-                cmd.CommandText = "update Student_details set SName='" + textBox2.Text + "',ContactNo='" + textBox3.Text+ "' where admissionNo='" + textBox1.Text + "'" ;
+                cmd.CommandText = "update Student_details1 set SName='" + textBox2.Text + "',ContactNo='" + textBox3.Text+ "' where admissionNo='" + textBox1.Text + "'" ;
                 cmd.ExecuteNonQuery();
 
                 
@@ -149,6 +149,13 @@ namespace Login
             textBox3.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
 
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainLog1 Ed1 = new MainLog1();
+            Ed1.ShowDialog();
         }
     }
 }

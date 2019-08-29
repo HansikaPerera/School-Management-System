@@ -214,6 +214,7 @@
             this.resultBtn.Size = new System.Drawing.Size(200, 145);
             this.resultBtn.TabIndex = 40;
             this.resultBtn.UseVisualStyleBackColor = false;
+            this.resultBtn.Click += new System.EventHandler(this.resultBtn_Click);
             // 
             // studentBtn
             // 

@@ -159,6 +159,7 @@
             this.button3.TabIndex = 5;
             this.button3.Text = "Logout";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -188,6 +189,9 @@
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel1.BackgroundImage = global::Login.Properties.Resources.Untitled_1;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -219,6 +223,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox2.BackgroundImage = global::Login.Properties.Resources.icons8_user_group_96;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(260, 25);
@@ -252,6 +257,7 @@
             // 
             // btnSendEmail
             // 
+            this.btnSendEmail.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnSendEmail.BackColor = System.Drawing.Color.Maroon;
             this.btnSendEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSendEmail.ForeColor = System.Drawing.SystemColors.HighlightText;
@@ -265,6 +271,7 @@
             // 
             // btnReset
             // 
+            this.btnReset.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnReset.BackColor = System.Drawing.Color.Maroon;
             this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset.ForeColor = System.Drawing.SystemColors.Window;
@@ -278,6 +285,7 @@
             // 
             // dgvMembers
             // 
+            this.dgvMembers.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dgvMembers.BackgroundColor = System.Drawing.Color.LightGray;
             this.dgvMembers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvMembers.Location = new System.Drawing.Point(390, 167);
@@ -288,6 +296,7 @@
             // 
             // btnSearch
             // 
+            this.btnSearch.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.ForeColor = System.Drawing.Color.Sienna;
@@ -301,6 +310,7 @@
             // 
             // txtMemberName
             // 
+            this.txtMemberName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtMemberName.BackColor = System.Drawing.Color.LightGray;
             this.txtMemberName.Location = new System.Drawing.Point(386, 118);
             this.txtMemberName.Name = "txtMemberName";
@@ -309,6 +319,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -322,6 +333,7 @@
             // 
             // txtName
             // 
+            this.txtName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtName.BackColor = System.Drawing.Color.LightGray;
             this.txtName.Location = new System.Drawing.Point(160, 118);
             this.txtName.Name = "txtName";
@@ -330,6 +342,7 @@
             // 
             // DOB
             // 
+            this.DOB.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.DOB.AutoSize = true;
             this.DOB.BackColor = System.Drawing.Color.Transparent;
             this.DOB.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -342,6 +355,7 @@
             // 
             // txtDOB
             // 
+            this.txtDOB.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtDOB.BackColor = System.Drawing.Color.LightGray;
             this.txtDOB.Location = new System.Drawing.Point(160, 158);
             this.txtDOB.Name = "txtDOB";
@@ -350,6 +364,7 @@
             // 
             // Year
             // 
+            this.Year.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Year.AutoSize = true;
             this.Year.BackColor = System.Drawing.Color.Transparent;
             this.Year.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -362,6 +377,7 @@
             // 
             // btnDelete
             // 
+            this.btnDelete.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnDelete.BackColor = System.Drawing.Color.Maroon;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -375,6 +391,7 @@
             // 
             // txtYear
             // 
+            this.txtYear.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtYear.BackColor = System.Drawing.Color.LightGray;
             this.txtYear.Location = new System.Drawing.Point(160, 198);
             this.txtYear.Name = "txtYear";
@@ -383,6 +400,7 @@
             // 
             // btnSave
             // 
+            this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnSave.BackColor = System.Drawing.Color.Maroon;
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -396,6 +414,7 @@
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -408,6 +427,7 @@
             // 
             // txtMobileNumber
             // 
+            this.txtMobileNumber.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtMobileNumber.BackColor = System.Drawing.Color.LightGray;
             this.txtMobileNumber.Location = new System.Drawing.Point(160, 319);
             this.txtMobileNumber.Name = "txtMobileNumber";
@@ -416,6 +436,7 @@
             // 
             // txtAddress
             // 
+            this.txtAddress.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtAddress.BackColor = System.Drawing.Color.LightGray;
             this.txtAddress.Location = new System.Drawing.Point(160, 242);
             this.txtAddress.Multiline = true;
@@ -425,6 +446,7 @@
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
